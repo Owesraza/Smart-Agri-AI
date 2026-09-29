@@ -1,0 +1,71 @@
+# ===========================
+# CropPoint (SmartAgri AI) – .gitignore
+# ===========================
+
+# Environment & Secrets (Never commit secrets!)
+.env
+.env.*
+*.env
+!.env.example
+backend/.env
+frontend/.env
+
+# Large Datasets & Raw Data (Exceeds GitHub limits)
+Dataset of 20-24/
+*.csv
+*.tsv
+*.parquet
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+venv/
+.venv/
+env/
+backend/venv/
+
+# SQLite Databases & Backups
+*.db
+*.sqlite
+*.sqlite3
+*.backup
+*.bak
+
+# AI Model Artifacts & Weights (Large binaries)
+*.pkl
+*.bin
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# IDE & OS Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+.Spotlight-V100
+.Trashes
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs & Temporary Scratch
+*.log
+logs/
+scratch/

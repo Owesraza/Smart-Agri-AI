@@ -1,0 +1,572 @@
+{
+  "fold_results": [
+    {
+      "fold": 1,
+      "train_period": "2001\u20132010",
+      "train_dates": "2001-07-03 to 2010-12-31",
+      "train_records": 349869,
+      "val_period": "2011\u20132013",
+      "val_dates": "2011-01-01 to 2013-12-31",
+      "val_records": 177370,
+      "R2": 0.9354,
+      "MAE": 145.84,
+      "RMSE": 304.86,
+      "MAPE": 8.33,
+      "train_time_sec": 71.01
+    },
+    {
+      "fold": 2,
+      "train_period": "2001\u20132013",
+      "train_dates": "2001-07-03 to 2013-12-31",
+      "train_records": 527239,
+      "val_period": "2014\u20132016",
+      "val_dates": "2014-01-01 to 2016-12-31",
+      "val_records": 179715,
+      "R2": 0.9527,
+      "MAE": 126.85,
+      "RMSE": 269.78,
+      "MAPE": 7.9,
+      "train_time_sec": 122.58
+    },
+    {
+      "fold": 3,
+      "train_period": "2001\u20132016",
+      "train_dates": "2001-07-03 to 2016-12-31",
+      "train_records": 706954,
+      "val_period": "2017\u20132018",
+      "val_dates": "2017-01-01 to 2018-12-31",
+      "val_records": 181787,
+      "R2": 0.966,
+      "MAE": 111.22,
+      "RMSE": 239.5,
+      "MAPE": 6.92,
+      "train_time_sec": 174.55
+    },
+    {
+      "fold": 4,
+      "train_period": "2001\u20132018",
+      "train_dates": "2001-07-03 to 2018-12-31",
+      "train_records": 888741,
+      "val_period": "2019\u20132021",
+      "val_dates": "2019-01-01 to 2021-12-31",
+      "val_records": 235460,
+      "R2": 0.9408,
+      "MAE": 184.17,
+      "RMSE": 395.13,
+      "MAPE": 8.16,
+      "train_time_sec": 248.31
+    },
+    {
+      "fold": 5,
+      "train_period": "2001\u20132021",
+      "train_dates": "2001-07-03 to 2021-12-31",
+      "train_records": 1124201,
+      "val_period": "2022\u20132024",
+      "val_dates": "2022-01-01 to 2024-02-02",
+      "val_records": 189906,
+      "R2": 0.9495,
+      "MAE": 211.68,
+      "RMSE": 470.56,
+      "MAPE": 7.9,
+      "train_time_sec": 340.07
+    }
+  ],
+  "stats_summary": [
+    {
+      "Metric": "R2",
+      "Mean": 0.9489,
+      "Std Dev": 0.0118,
+      "Min": 0.9354,
+      "Max": 0.966,
+      "Range": 0.0306,
+      "CV (%)": 1.24
+    },
+    {
+      "Metric": "MAE",
+      "Mean": 155.952,
+      "Std Dev": 41.3884,
+      "Min": 111.22,
+      "Max": 211.68,
+      "Range": 100.46,
+      "CV (%)": 26.54
+    },
+    {
+      "Metric": "RMSE",
+      "Mean": 335.966,
+      "Std Dev": 95.2231,
+      "Min": 239.5,
+      "Max": 470.56,
+      "Range": 231.06,
+      "CV (%)": 28.34
+    },
+    {
+      "Metric": "MAPE",
+      "Mean": 7.842,
+      "Std Dev": 0.5468,
+      "Min": 6.92,
+      "Max": 8.33,
+      "Range": 1.41,
+      "CV (%)": 6.97
+    }
+  ],
+  "commodity_results": {
+    "Onion": [
+      {
+        "fold": 1,
+        "records": 23330,
+        "mean_price": 1101.49,
+        "R2": 0.8697,
+        "MAE": 165.25,
+        "RMSE": 325.37,
+        "MAPE": 15.26
+      },
+      {
+        "fold": 2,
+        "records": 28119,
+        "mean_price": 1270.15,
+        "R2": 0.9012,
+        "MAE": 151.34,
+        "RMSE": 283.81,
+        "MAPE": 13.33
+      },
+      {
+        "fold": 3,
+        "records": 24985,
+        "mean_price": 1127.64,
+        "R2": 0.9001,
+        "MAE": 134.34,
+        "RMSE": 241.77,
+        "MAPE": 13.02
+      },
+      {
+        "fold": 4,
+        "records": 38282,
+        "mean_price": 1824.69,
+        "R2": 0.8466,
+        "MAE": 260.12,
+        "RMSE": 515.45,
+        "MAPE": 14.64
+      },
+      {
+        "fold": 5,
+        "records": 30955,
+        "mean_price": 1406.36,
+        "R2": 0.8724,
+        "MAE": 156.61,
+        "RMSE": 280.01,
+        "MAPE": 12.09
+      }
+    ],
+    "Wheat": [
+      {
+        "fold": 1,
+        "records": 42148,
+        "mean_price": 1522.61,
+        "R2": 0.767,
+        "MAE": 83.41,
+        "RMSE": 143.41,
+        "MAPE": 5.2
+      },
+      {
+        "fold": 2,
+        "records": 43531,
+        "mean_price": 1771.75,
+        "R2": 0.6196,
+        "MAE": 111.65,
+        "RMSE": 229.86,
+        "MAPE": 5.83
+      },
+      {
+        "fold": 3,
+        "records": 43725,
+        "mean_price": 1827.97,
+        "R2": 0.7826,
+        "MAE": 78.93,
+        "RMSE": 169.13,
+        "MAPE": 4.02
+      },
+      {
+        "fold": 4,
+        "records": 57387,
+        "mean_price": 1943.03,
+        "R2": 0.8346,
+        "MAE": 85.86,
+        "RMSE": 171.83,
+        "MAPE": 4.28
+      },
+      {
+        "fold": 5,
+        "records": 41342,
+        "mean_price": 2411.58,
+        "R2": 0.7983,
+        "MAE": 114.76,
+        "RMSE": 209.77,
+        "MAPE": 4.58
+      }
+    ],
+    "Tomato": [
+      {
+        "fold": 1,
+        "records": 14691,
+        "mean_price": 975.29,
+        "R2": 0.828,
+        "MAE": 169.93,
+        "RMSE": 279.72,
+        "MAPE": 20.85
+      },
+      {
+        "fold": 2,
+        "records": 20827,
+        "mean_price": 1251.3,
+        "R2": 0.8491,
+        "MAE": 216.37,
+        "RMSE": 369.59,
+        "MAPE": 20.3
+      },
+      {
+        "fold": 3,
+        "records": 20452,
+        "mean_price": 1218.42,
+        "R2": 0.8758,
+        "MAE": 200.56,
+        "RMSE": 362.13,
+        "MAPE": 18.24
+      },
+      {
+        "fold": 4,
+        "records": 28278,
+        "mean_price": 1437.83,
+        "R2": 0.829,
+        "MAE": 223.72,
+        "RMSE": 356.15,
+        "MAPE": 17.23
+      },
+      {
+        "fold": 5,
+        "records": 21121,
+        "mean_price": 1836.24,
+        "R2": 0.8639,
+        "MAE": 323.51,
+        "RMSE": 641.12,
+        "MAPE": 19.46
+      }
+    ],
+    "Cotton": [
+      {
+        "fold": 1,
+        "records": 16238,
+        "mean_price": 4176.27,
+        "R2": 0.5142,
+        "MAE": 258.63,
+        "RMSE": 447.57,
+        "MAPE": 5.91
+      },
+      {
+        "fold": 2,
+        "records": 11573,
+        "mean_price": 4668.92,
+        "R2": 0.6433,
+        "MAE": 137.46,
+        "RMSE": 195.65,
+        "MAPE": 2.88
+      },
+      {
+        "fold": 3,
+        "records": 16557,
+        "mean_price": 5014.0,
+        "R2": 0.6228,
+        "MAE": 185.21,
+        "RMSE": 319.21,
+        "MAPE": 3.92
+      },
+      {
+        "fold": 4,
+        "records": 14007,
+        "mean_price": 5648.37,
+        "R2": 0.7648,
+        "MAE": 241.73,
+        "RMSE": 507.26,
+        "MAPE": 4.65
+      },
+      {
+        "fold": 5,
+        "records": 10263,
+        "mean_price": 8077.71,
+        "R2": -0.3573,
+        "MAE": 982.32,
+        "RMSE": 1458.99,
+        "MAPE": 12.01
+      }
+    ],
+    "Soyabean": [
+      {
+        "fold": 1,
+        "records": 38143,
+        "mean_price": 2855.72,
+        "R2": 0.8656,
+        "MAE": 156.69,
+        "RMSE": 233.09,
+        "MAPE": 5.18
+      },
+      {
+        "fold": 2,
+        "records": 44641,
+        "mean_price": 3371.8,
+        "R2": 0.7462,
+        "MAE": 91.57,
+        "RMSE": 209.69,
+        "MAPE": 2.81
+      },
+      {
+        "fold": 3,
+        "records": 35857,
+        "mean_price": 2962.39,
+        "R2": 0.7608,
+        "MAE": 80.69,
+        "RMSE": 180.57,
+        "MAPE": 2.93
+      },
+      {
+        "fold": 4,
+        "records": 47010,
+        "mean_price": 4329.53,
+        "R2": 0.8232,
+        "MAE": 274.0,
+        "RMSE": 538.27,
+        "MAPE": 5.31
+      },
+      {
+        "fold": 5,
+        "records": 46393,
+        "mean_price": 5303.39,
+        "R2": 0.848,
+        "MAE": 196.75,
+        "RMSE": 311.36,
+        "MAPE": 3.83
+      }
+    ],
+    "Maize": [
+      {
+        "fold": 1,
+        "records": 23284,
+        "mean_price": 1185.7,
+        "R2": 0.5476,
+        "MAE": 56.01,
+        "RMSE": 133.3,
+        "MAPE": 4.49
+      },
+      {
+        "fold": 2,
+        "records": 12119,
+        "mean_price": 1413.35,
+        "R2": 0.4258,
+        "MAE": 59.35,
+        "RMSE": 179.03,
+        "MAPE": 4.06
+      },
+      {
+        "fold": 3,
+        "records": 23127,
+        "mean_price": 1278.61,
+        "R2": 0.5655,
+        "MAE": 49.3,
+        "RMSE": 143.6,
+        "MAPE": 3.77
+      },
+      {
+        "fold": 4,
+        "records": 27060,
+        "mean_price": 1554.29,
+        "R2": 0.7338,
+        "MAE": 84.33,
+        "RMSE": 188.39,
+        "MAPE": 5.42
+      },
+      {
+        "fold": 5,
+        "records": 20205,
+        "mean_price": 2028.24,
+        "R2": 0.6161,
+        "MAE": 92.97,
+        "RMSE": 214.25,
+        "MAPE": 4.59
+      }
+    ],
+    "Potato": [
+      {
+        "fold": 1,
+        "records": 9447,
+        "mean_price": 980.26,
+        "R2": 0.852,
+        "MAE": 75.26,
+        "RMSE": 136.74,
+        "MAPE": 8.4
+      },
+      {
+        "fold": 2,
+        "records": 12255,
+        "mean_price": 1291.43,
+        "R2": 0.7561,
+        "MAE": 103.99,
+        "RMSE": 264.88,
+        "MAPE": 9.14
+      },
+      {
+        "fold": 3,
+        "records": 10705,
+        "mean_price": 1042.07,
+        "R2": 0.8225,
+        "MAE": 74.7,
+        "RMSE": 176.16,
+        "MAPE": 7.85
+      },
+      {
+        "fold": 4,
+        "records": 14276,
+        "mean_price": 1473.55,
+        "R2": 0.8532,
+        "MAE": 111.1,
+        "RMSE": 242.86,
+        "MAPE": 7.79
+      },
+      {
+        "fold": 5,
+        "records": 13137,
+        "mean_price": 1463.81,
+        "R2": 0.7126,
+        "MAE": 95.99,
+        "RMSE": 228.42,
+        "MAPE": 7.0
+      }
+    ],
+    "Rice": [
+      {
+        "fold": 1,
+        "records": 10089,
+        "mean_price": 2932.98,
+        "R2": 0.6835,
+        "MAE": 377.53,
+        "RMSE": 776.48,
+        "MAPE": 11.78
+      },
+      {
+        "fold": 2,
+        "records": 6650,
+        "mean_price": 3163.83,
+        "R2": 0.7801,
+        "MAE": 225.85,
+        "RMSE": 550.61,
+        "MAPE": 7.23
+      },
+      {
+        "fold": 3,
+        "records": 6379,
+        "mean_price": 3394.12,
+        "R2": 0.6518,
+        "MAE": 220.94,
+        "RMSE": 463.15,
+        "MAPE": 6.82
+      },
+      {
+        "fold": 4,
+        "records": 9160,
+        "mean_price": 3482.61,
+        "R2": 0.7962,
+        "MAE": 220.3,
+        "RMSE": 499.19,
+        "MAPE": 6.11
+      },
+      {
+        "fold": 5,
+        "records": 6490,
+        "mean_price": 3311.17,
+        "R2": 0.8832,
+        "MAE": 219.62,
+        "RMSE": 423.73,
+        "MAPE": 6.15
+      }
+    ]
+  },
+  "commodity_summary": [
+    {
+      "Commodity": "Onion",
+      "Folds Evaluated": 5,
+      "Mean R\u00b2": 0.878,
+      "Std R\u00b2": 0.023,
+      "R\u00b2 Range": "0.85 to 0.90",
+      "Mean MAE (\u20b9)": 173.53,
+      "Mean MAPE (%)": "13.67%",
+      "MAPE Range": "12.09% to 15.26%"
+    },
+    {
+      "Commodity": "Wheat",
+      "Folds Evaluated": 5,
+      "Mean R\u00b2": 0.7604,
+      "Std R\u00b2": 0.0826,
+      "R\u00b2 Range": "0.62 to 0.83",
+      "Mean MAE (\u20b9)": 94.92,
+      "Mean MAPE (%)": "4.78%",
+      "MAPE Range": "4.02% to 5.83%"
+    },
+    {
+      "Commodity": "Tomato",
+      "Folds Evaluated": 5,
+      "Mean R\u00b2": 0.8492,
+      "Std R\u00b2": 0.0211,
+      "R\u00b2 Range": "0.83 to 0.88",
+      "Mean MAE (\u20b9)": 226.82,
+      "Mean MAPE (%)": "19.22%",
+      "MAPE Range": "17.23% to 20.85%"
+    },
+    {
+      "Commodity": "Cotton",
+      "Folds Evaluated": 5,
+      "Mean R\u00b2": 0.4376,
+      "Std R\u00b2": 0.4532,
+      "R\u00b2 Range": "-0.36 to 0.76",
+      "Mean MAE (\u20b9)": 361.07,
+      "Mean MAPE (%)": "5.87%",
+      "MAPE Range": "2.88% to 12.01%"
+    },
+    {
+      "Commodity": "Soyabean",
+      "Folds Evaluated": 5,
+      "Mean R\u00b2": 0.8088,
+      "Std R\u00b2": 0.0529,
+      "R\u00b2 Range": "0.75 to 0.87",
+      "Mean MAE (\u20b9)": 159.94,
+      "Mean MAPE (%)": "4.01%",
+      "MAPE Range": "2.81% to 5.31%"
+    },
+    {
+      "Commodity": "Maize",
+      "Folds Evaluated": 5,
+      "Mean R\u00b2": 0.5778,
+      "Std R\u00b2": 0.1118,
+      "R\u00b2 Range": "0.43 to 0.73",
+      "Mean MAE (\u20b9)": 68.39,
+      "Mean MAPE (%)": "4.47%",
+      "MAPE Range": "3.77% to 5.42%"
+    },
+    {
+      "Commodity": "Potato",
+      "Folds Evaluated": 5,
+      "Mean R\u00b2": 0.7993,
+      "Std R\u00b2": 0.0625,
+      "R\u00b2 Range": "0.71 to 0.85",
+      "Mean MAE (\u20b9)": 92.21,
+      "Mean MAPE (%)": "8.04%",
+      "MAPE Range": "7.00% to 9.14%"
+    },
+    {
+      "Commodity": "Rice",
+      "Folds Evaluated": 5,
+      "Mean R\u00b2": 0.759,
+      "Std R\u00b2": 0.0928,
+      "R\u00b2 Range": "0.65 to 0.88",
+      "Mean MAE (\u20b9)": 252.85,
+      "Mean MAPE (%)": "7.62%",
+      "MAPE Range": "6.11% to 11.78%"
+    }
+  ]
+}

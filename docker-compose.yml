@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: smartagri_backend
+    ports:
+      - "8000:8000"
+    environment:
+      - APP_NAME=SmartAgri AI
+      - DEBUG=false
+      - DATABASE_URL=sqlite+aiosqlite:///./smartagri.db
+      - JWT_SECRET=smartagri_jwt_super_secret_key_change_in_prod_2026
+    volumes:
+      - ./backend/smartagri.db:/app/smartagri.db
+    restart: always
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: smartagri_frontend
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
+    restart: always
+
+  nginx:
+    image: nginx:alpine
+    container_name: smartagri_nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - backend
+      - frontend
+    restart: always

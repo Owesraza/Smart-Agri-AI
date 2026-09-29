@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CropPoint - End-to-End Visual Workflow</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+    body { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; }
+    .glass { background: rgba(15, 23, 42, 0.75); backdrop-filter: blur(16px); }
+    .glow-blue { box-shadow: 0 0 30px -5px rgba(59, 130, 246, 0.25); }
+    .glow-emerald { box-shadow: 0 0 30px -5px rgba(16, 185, 129, 0.25); }
+    .glow-purple { box-shadow: 0 0 30px -5px rgba(168, 85, 247, 0.25); }
+    .glow-orange { box-shadow: 0 0 30px -5px rgba(249, 115, 22, 0.25); }
+    .glow-red { box-shadow: 0 0 30px -5px rgba(239, 68, 68, 0.25); }
+    .step-card { transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+    .step-card:hover { transform: translateY(-4px); }
+  </style>
+</head>
+<body class="bg-[#070D18] text-slate-100 min-h-screen selection:bg-emerald-500 selection:text-white pb-16">
+
+  <!-- Floating Navigation -->
+  <header class="border-b border-slate-800/80 bg-slate-950/80 backdrop-blur sticky top-0 z-50 px-6 py-4 flex items-center justify-between">
+    <div class="flex items-center gap-3">
+      <div class="h-10 w-10 rounded-xl bg-gradient-to-tr from-emerald-500 to-teal-400 flex items-center justify-center text-slate-950 font-black text-xl shadow-lg shadow-emerald-500/20">
+        🌱
+      </div>
+      <div>
+        <div class="flex items-center gap-2">
+          <h1 class="text-base md:text-lg font-bold text-white tracking-tight">CropPoint</h1>
+          <span class="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">Review 3 Ready</span>
+        </div>
+        <p class="text-xs text-slate-400">Visual End-to-End System Workflow (Start Point to End Point)</p>
+      </div>
+    </div>
+    <div class="flex items-center gap-3">
+      <a href="CropPoint_End_to_End_Workflow.png" download="CropPoint_End_to_End_Workflow.png" class="px-4 py-2 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white rounded-xl text-xs md:text-sm font-semibold flex items-center gap-2 transition shadow-lg shadow-emerald-900/30">
+        <i class="fa-solid fa-cloud-arrow-down"></i> Download 300 DPI Poster
+      </a>
+    </div>
+  </header>
+
+  <!-- Content Wrap -->
+  <main class="max-w-7xl mx-auto px-4 md:px-6 pt-8 space-y-10">
+
+    <!-- Hero Title -->
+    <div class="text-center space-y-3">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-800/80 border border-slate-700 text-emerald-400 text-xs font-semibold">
+        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+        Interactive Visual System Flowchart
+      </div>
+      <h2 class="text-3xl md:text-5xl font-extrabold tracking-tight bg-gradient-to-r from-white via-slate-200 to-slate-400 bg-clip-text text-transparent">
+        How CropPoint Works: From Start to End
+      </h2>
+      <p class="text-xs md:text-sm text-slate-400 max-w-2xl mx-auto">
+        A seamless 7-step autonomous journey: Farmer Ingestion &bull; Random Forest AI Forecasting &bull; Multi-Factor Decision &bull; 4-Day Action &bull; Automated Ledger &bull; Closed-Loop Retraining.
+      </p>
+    </div>
+
+    <!-- Main High-Res Diagram Canvas -->
+    <div class="glass border border-slate-800 rounded-3xl overflow-hidden shadow-2xl p-3 md:p-6">
+      <div class="flex items-center justify-between pb-4 border-b border-slate-800/80 px-2">
+        <div class="flex items-center gap-2 text-xs font-bold text-slate-300">
+          <i class="fa-solid fa-palette text-emerald-400"></i> Publication-Grade Architectural Diagram (300 DPI)
+        </div>
+        <span class="text-[11px] text-slate-500 hidden sm:inline">Clean Orthogonal Routing &bull; Zero Crossing Lines</span>
+      </div>
+      <div class="mt-4 flex justify-center bg-slate-950/60 rounded-2xl p-2 border border-slate-800/60 overflow-x-auto">
+        <a href="CropPoint_End_to_End_Workflow.png" target="_blank" title="Click to view full image in high resolution">
+          <img src="CropPoint_End_to_End_Workflow.png" alt="CropPoint System Workflow" class="rounded-xl max-w-full hover:scale-[1.01] transition-all duration-300 shadow-2xl">
+        </a>
+      </div>
+    </div>
+
+    <!-- 7 Visual Step Cards (Attractive SaaS Flow) -->
+    <div class="space-y-6">
+      <div class="flex items-center justify-between">
+        <h3 class="text-xl font-bold text-white flex items-center gap-2">
+          <i class="fa-solid fa-layer-group text-emerald-400"></i> 7 Visual Steps: Easy to Explain to Examiner
+        </h3>
+        <span class="text-xs text-slate-500">Tap cards for technical highlights</span>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <!-- STEP 1 -->
+        <div class="step-card bg-slate-950/80 border border-blue-500/30 rounded-2xl p-5 glow-blue flex flex-col justify-between">
+          <div class="space-y-3">
+            <div class="flex items-center justify-between">
+              <span class="px-2.5 py-0.5 rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/30 text-[10px] font-black uppercase">
+                Step 1: Start Point
+              </span>
+              <span class="text-2xl">👨‍🌾</span>
+            </div>
+            <h4 class="text-base font-bold text-white">Farmer Input & Live Market Feeds</h4>
+            <div class="text-xs text-slate-400 space-y-2">
+              <p>✔ Farmer inputs commodity (Onion/Soyabean), volume (50 Qtl), and APMC location.</p>
+              <p>✔ Real-time streaming from <strong>AGMARKNET API</strong> (358 mandis) and <strong>OpenWeatherMap</strong>.</p>
+            </div>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-800/80 flex flex-wrap gap-1.5">
+            <span class="px-2 py-0.5 bg-blue-950 text-blue-300 rounded text-[10px] font-semibold border border-blue-800">React UI</span>
+            <span class="px-2 py-0.5 bg-blue-950 text-blue-300 rounded text-[10px] font-semibold border border-blue-800">Agmarknet API</span>
+            <span class="px-2 py-0.5 bg-amber-950 text-amber-300 rounded text-[10px] font-semibold border border-amber-800">Weather</span>
+          </div>
+        </div>
+
+        <!-- STEP 2 -->
+        <div class="step-card bg-slate-950/80 border border-purple-500/30 rounded-2xl p-5 glow-purple flex flex-col justify-between">
+          <div class="space-y-3">
+            <div class="flex items-center justify-between">
+              <span class="px-2.5 py-0.5 rounded-full bg-purple-500/10 text-purple-400 border border-purple-500/30 text-[10px] font-black uppercase">
+                Step 2: AI Core
+              </span>
+              <span class="text-2xl">🧠</span>
+            </div>
+            <h4 class="text-base font-bold text-white">Random Forest & FAISS RAG</h4>
+            <div class="text-xs text-slate-400 space-y-2">
+              <p>✔ <strong>Random Forest Regressor</strong> predicts 1-14 day prices with <strong>96.87% R²</strong> accuracy (MAPE 2.85%).</p>
+              <p>✔ <strong>FAISS Vector RAG + Gemini 2.5 Flash</strong> delivers multilingual advisory in English, Hindi, and Marathi.</p>
+            </div>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-800/80 flex flex-wrap gap-1.5">
+            <span class="px-2 py-0.5 bg-emerald-950 text-emerald-300 rounded text-[10px] font-semibold border border-emerald-800">R² = 0.9687</span>
+            <span class="px-2 py-0.5 bg-purple-950 text-purple-300 rounded text-[10px] font-semibold border border-purple-800">FAISS Vector DB</span>
+            <span class="px-2 py-0.5 bg-purple-950 text-purple-300 rounded text-[10px] font-semibold border border-purple-800">Gemini Flash</span>
+          </div>
+        </div>
+
+        <!-- STEP 3 -->
+        <div class="step-card bg-slate-950/80 border border-orange-500/30 rounded-2xl p-5 glow-orange flex flex-col justify-between">
+          <div class="space-y-3">
+            <div class="flex items-center justify-between">
+              <span class="px-2.5 py-0.5 rounded-full bg-orange-500/10 text-orange-400 border border-orange-500/30 text-[10px] font-black uppercase">
+                Step 3: Decision Engine
+              </span>
+              <span class="text-2xl">⚖️</span>
+            </div>
+            <h4 class="text-base font-bold text-white">Multi-Factor Profit Optimization</h4>
+            <div class="text-xs text-slate-400 space-y-2">
+              <p>✔ 6-Factor weights: Modal Price (35%), ML Forecast (25%), EMA-7/14/30 (20%), 7-Day Baseline (10%), Weather (5%), Season (5%).</p>
+              <p>✔ Formulates discrete advice: <span class="text-emerald-400 font-bold">SELL NOW</span> &bull; <span class="text-amber-400 font-bold">WAIT</span> &bull; <span class="text-indigo-400 font-bold">STORE</span>.</p>
+            </div>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-800/80 flex flex-wrap gap-1.5">
+            <span class="px-2 py-0.5 bg-emerald-950 text-emerald-300 rounded text-[10px] font-semibold border border-emerald-800">SELL NOW</span>
+            <span class="px-2 py-0.5 bg-amber-950 text-amber-300 rounded text-[10px] font-semibold border border-amber-800">WAIT</span>
+            <span class="px-2 py-0.5 bg-indigo-950 text-indigo-300 rounded text-[10px] font-semibold border border-indigo-800">STORE</span>
+          </div>
+        </div>
+
+        <!-- STEP 4 -->
+        <div class="step-card bg-slate-950/80 border border-slate-700 rounded-2xl p-5 flex flex-col justify-between">
+          <div class="space-y-3">
+            <div class="flex items-center justify-between">
+              <span class="px-2.5 py-0.5 rounded-full bg-slate-800 text-slate-300 border border-slate-600 text-[10px] font-black uppercase">
+                Step 4: Dispatch
+              </span>
+              <span class="text-2xl">⚡</span>
+            </div>
+            <h4 class="text-base font-bold text-white">Automated Trigger & UI Alert</h4>
+            <div class="text-xs text-slate-400 space-y-2">
+              <p>✔ When 'SELL NOW' is chosen, an instant event fires via FastAPI.</p>
+              <p>✔ Farmer receives push alert on dashboard: <em>"Optimal window active. Start 4-day workflow."</em></p>
+            </div>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-800/80 flex flex-wrap gap-1.5">
+            <span class="px-2 py-0.5 bg-slate-900 text-slate-300 rounded text-[10px] font-semibold border border-slate-700">FastAPI Trigger</span>
+            <span class="px-2 py-0.5 bg-blue-950 text-blue-300 rounded text-[10px] font-semibold border border-blue-800">Workflow Manager</span>
+          </div>
+        </div>
+
+        <!-- STEP 5 -->
+        <div class="step-card bg-slate-950/80 border border-teal-500/30 rounded-2xl p-5 flex flex-col justify-between">
+          <div class="space-y-3">
+            <div class="flex items-center justify-between">
+              <span class="px-2.5 py-0.5 rounded-full bg-teal-500/10 text-teal-400 border border-teal-500/30 text-[10px] font-black uppercase">
+                Step 5: 4-Day Execution
+              </span>
+              <span class="text-2xl">🚚</span>
+            </div>
+            <h4 class="text-base font-bold text-white">Physical Agricultural Lifecycle</h4>
+            <div class="text-xs text-slate-400 space-y-1.5">
+              <p><strong class="text-teal-400">Day 1:</strong> 🌾 Harvest & Grade (A/B/C)</p>
+              <p><strong class="text-teal-400">Day 2:</strong> 🚚 Haversine Freight Optimization</p>
+              <p><strong class="text-teal-400">Day 3:</strong> 🤝 APMC Mandi Sale / Direct Trade</p>
+              <p><strong class="text-teal-400">Day 4:</strong> 📊 Actuals Recorded into Ledger</p>
+            </div>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-800/80 flex flex-wrap gap-1.5">
+            <span class="px-2 py-0.5 bg-teal-950 text-teal-300 rounded text-[10px] font-semibold border border-teal-800">4-Day Plan</span>
+            <span class="px-2 py-0.5 bg-slate-900 text-slate-300 rounded text-[10px] font-semibold border border-slate-700">Haversine GPS</span>
+          </div>
+        </div>
+
+        <!-- STEP 6 -->
+        <div class="step-card bg-slate-950/80 border border-emerald-500/30 rounded-2xl p-5 glow-emerald flex flex-col justify-between">
+          <div class="space-y-3">
+            <div class="flex items-center justify-between">
+              <span class="px-2.5 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 text-[10px] font-black uppercase">
+                Step 6: Settlement
+              </span>
+              <span class="text-2xl">🧾</span>
+            </div>
+            <h4 class="text-base font-bold text-white">Double-Entry Financial Ledger</h4>
+            <div class="text-xs text-slate-400 space-y-2">
+              <p>✔ Automatically debits transport, labor, and cess from gross sale value.</p>
+              <p>✔ Computes True Net Farmer Profit & auto-generates legal GST/APMC PDF invoice.</p>
+            </div>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-800/80 flex flex-wrap gap-1.5">
+            <span class="px-2 py-0.5 bg-emerald-950 text-emerald-300 rounded text-[10px] font-semibold border border-emerald-800">Double-Entry</span>
+            <span class="px-2 py-0.5 bg-emerald-950 text-emerald-300 rounded text-[10px] font-semibold border border-emerald-800">PDF Invoicing</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- STEP 7: THE CLOSED LOOP HIGHLIGHT -->
+      <div class="bg-gradient-to-r from-red-950/60 via-red-900/30 to-red-950/60 border border-red-500/40 rounded-3xl p-6 glow-red">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-6">
+          <div class="space-y-2">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-500/20 text-red-400 border border-red-500/30 text-xs font-bold uppercase">
+              <i class="fa-solid fa-infinity"></i> Step 7: End Point & Closed Loop Retraining
+            </div>
+            <h4 class="text-xl md:text-2xl font-extrabold text-white">Eliminating Model Drift: The System Gets Smarter Forever</h4>
+            <p class="text-xs md:text-sm text-slate-300 max-w-3xl leading-relaxed">
+              Realized prices and transport expenses captured on Day 4 flow back as <strong class="text-red-400">Actuals</strong> into the system. CropPoint calculates prediction error (<code>e = y_actual - y_pred</code>) and triggers periodic walk-forward model retraining.
+            </p>
+          </div>
+          <div class="flex items-center gap-4 shrink-0 bg-slate-900/90 border border-red-500/30 px-5 py-4 rounded-2xl text-center">
+            <div class="text-3xl text-red-400 animate-spin" style="animation-duration: 6s;">⟳</div>
+            <div class="text-left">
+              <div class="text-xs font-bold text-white uppercase">Self-Improving</div>
+              <div class="text-[11px] text-red-400">Zero Model Drift</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Quick Viva Explanation -->
+    <div class="bg-slate-950 border border-slate-800 rounded-2xl p-6 space-y-3">
+      <h3 class="text-base font-bold text-white flex items-center gap-2">
+        <i class="fa-solid fa-comment-dots text-emerald-400"></i> What to Tell the Examiner (Short & Crisp)
+      </h3>
+      <div class="bg-slate-900/80 border border-slate-800 rounded-xl p-4 text-xs md:text-sm text-slate-300 leading-relaxed italic border-l-4 border-l-emerald-500">
+        "Sir, our project is an autonomous closed loop in 7 simple steps: The farmer enters their crop, live APMC and weather data stream in, our Random Forest predicts prices with 96.9% accuracy, the Decision Engine recommends 'SELL NOW', the farmer receives a push alert, executes a 4-day plan (Harvest, Transport, Sell, Ledger), the system auto-calculates profit in a double-entry ledger, and the real sale price feeds back into the AI to retrain the model and eliminate market drift."
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="border-t border-slate-800/80 py-6 text-center text-xs text-slate-500">
+    CropPoint &bull; Department of Computer Engineering &bull; G H Raisoni College of Engineering and Management, Pune
+  </footer>
+
+</body>
+</html>

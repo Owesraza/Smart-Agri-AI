@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CropPoint — Master Reference & Formula-to-Page Mapping</title>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; max-width: 1200px; margin: 30px auto; padding: 0 20px; color: #1e293b; background: #f8fafc; }
+  h1 { color: #0f172a; border-bottom: 2px solid #2563eb; padding-bottom: 12px; font-size: 24px; }
+  h2 { color: #1e40af; margin-top: 30px; font-size: 19px; }
+  table { width: 100%; border-collapse: collapse; margin: 20px 0; background: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+  th, td { padding: 12px 14px; text-align: left; border-bottom: 1px solid #e2e8f0; font-size: 13px; vertical-align: top; }
+  th { background: #eff6ff; color: #1e40af; font-weight: 600; }
+  tr:hover { background: #f1f5f9; }
+  a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  a:hover { text-decoration: underline; color: #1d4ed8; }
+  .badge { display: inline-block; padding: 2px 8px; font-size: 11px; font-weight: 600; border-radius: 9999px; background: #dbeafe; color: #1e40af; }
+  .formula-box { background: #f1f5f9; padding: 6px 10px; border-radius: 6px; font-family: monospace; font-size: 12px; margin-top: 4px; border-left: 3px solid #3b82f6; }
+</style>
+</head>
+<body>
+<h1>🌾 CropPoint (Smart Agri AI) — Master Reference & Formula-to-Page Mapping Dossier</h1>
+<p>This interactive catalog maps all <strong>20 research papers</strong> cited in the IEEE conference paper, showing exactly which paper is used for what purpose, the associated mathematical formulas, and the exact paper page number.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="width: 5%;">Ref</th>
+      <th style="width: 25%;">Paper Title & Authors</th>
+      <th style="width: 20%;">Downloaded PDF File</th>
+      <th style="width: 20%;">Core Purpose in CropPoint</th>
+      <th style="width: 20%;">Mathematical Formula</th>
+      <th style="width: 10%;">Section & Page</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>[1]</code></td>
+      <td><strong>More Buyers, More Competition? Farm Product Procurement</strong><br>Z. Ma & R. J. Sexton (2024)</td>
+      <td><a href="references/9_Ma_Sexton_Procurement_Markets_Competition.pdf">📄 Open PDF (688 KB)</a></td>
+      <td>Grounds necessity of direct B2B marketing to bypass buyer spatial oligopsony.</td>
+      <td>\( P_{\text{farmgate}} = P_{\text{wholesale}} - c_{\text{transport}} - \mu_{\text{markdown}} \)</td>
+      <td><span class="badge">Sec I (p.1)</span><br><span class="badge">Sec VI (p.4)</span></td>
+    </tr>
+    <tr>
+      <td><code>[2]</code></td>
+      <td><strong>Random Forests</strong><br>Leo Breiman (2001)</td>
+      <td><a href="references/2_Breiman_2001_Random_Forests.pdf">📄 Open PDF (121 KB)</a></td>
+      <td>Primary supervised machine learning forecasting engine (100 trees, 25 features).</td>
+      <td>\( \hat{y}_{\text{ML}}(\mathbf{x}) = \frac{1}{T}\sum_{t=1}^T f_t(\mathbf{x}; \Theta_t) \)</td>
+      <td><span class="badge">Sec IV (p.3)</span><br><span class="badge">Sec VIII (p.5)</span></td>
+    </tr>
+    <tr>
+      <td><code>[3]</code></td>
+      <td><strong>Long Short-Term Memory</strong><br>S. Hochreiter & J. Schmidhuber (1997)</td>
+      <td><a href="references/3_Hochreiter_1997_LSTM.pdf">📄 Open PDF (388 KB)</a></td>
+      <td>Recurrent deep learning architecture implemented as comparative baseline.</td>
+      <td>\( f_t = \sigma(W_f x_t + U_f h_{t-1} + b_f) \)<br>\( c_t = f_t \odot c_{t-1} + i_t \odot \tilde{c}_t \)</td>
+      <td><span class="badge">Sec II (p.2)</span><br><span class="badge">Sec VIII (p.5)</span></td>
+    </tr>
+    <tr>
+      <td><code>[4]</code></td>
+      <td><strong>Retrieval-Augmented Generation (RAG)</strong><br>P. Lewis et al. (NeurIPS 2020)</td>
+      <td><a href="references/4_Lewis_2020_Retrieval_Augmented_Generation_NeurIPS.pdf">📄 Open PDF (865 KB)</a></td>
+      <td>Grounding agronomic Q&A in verified ICAR/MSAMB knowledge bases.</td>
+      <td>\( \mathcal{R}_{\text{out}} = \text{LLM}(\text{Prompt}_{\text{sys}} \oplus \bigcup \mathbf{d}_{(k)} \oplus Q) \)</td>
+      <td><span class="badge">Sec I (p.1)</span><br><span class="badge">Sec V (p.4)</span></td>
+    </tr>
+    <tr>
+      <td><code>[5]</code></td>
+      <td><strong>Billion-Scale Similarity Search (FAISS)</strong><br>J. Johnson, M. Douze, H. Jégou (2021)</td>
+      <td><a href="references/5_Johnson_2021_Billion_Scale_Similarity_Search_FAISS.pdf">📄 Open PDF (1.2 MB)</a></td>
+      <td>High-performance vector index (`IndexFlatIP`) executing 4.2 ms retrieval.</td>
+      <td>\( \text{sim}(\mathbf{q}, \mathbf{d}_i) = \langle \mathbf{q}, \mathbf{d}_i \rangle = \sum_{k=1}^{384} q_k d_{i,k} \)</td>
+      <td><span class="badge">Sec V-B (p.4)</span></td>
+    </tr>
+    <tr>
+      <td><code>[6]</code></td>
+      <td><strong>Sentence-BERT: Siamese Embeddings</strong><br>N. Reimers & I. Gurevych (2019)</td>
+      <td><a href="references/6_Reimers_2019_Sentence_BERT_EMNLP.pdf">📄 Open PDF (557 KB)</a></td>
+      <td>384-dimensional dense semantic vector representations (`all-MiniLM-L6-v2`).</td>
+      <td>\( \mathbf{d}_i = \frac{\text{SBERT}(T_i)}{\norm{\text{SBERT}(T_i)}_2} \in \mathbb{R}^{384} \)</td>
+      <td><span class="badge">Sec V-A (p.4)</span></td>
+    </tr>
+    <tr>
+      <td><code>[7]</code></td>
+      <td><strong>AGMARKNET Official Portal</strong><br>Min. of Agriculture, GoI (2024)</td>
+      <td><a href="https://agmarknet.gov.in/" target="_blank">🌐 National Data Portal</a></td>
+      <td>1,351,051 longitudinal records across 358 mandis in Maharashtra (2001–2024).</td>
+      <td>Chronological Split: 2001-2021 Train (76%), 2022-2023 Val (14%), 2024 Test (10%)</td>
+      <td><span class="badge">Sec IV-A (p.3)</span></td>
+    </tr>
+    <tr>
+      <td><code>[8]</code></td>
+      <td><strong>Big Data in Smart Farming – A Review</strong><br>S. Wolfert et al. (2017)</td>
+      <td><a href="references/3_Wolfert_2017_Big_Data_Smart_Farming_Review.pdf">📄 Open PDF (1.1 MB)</a></td>
+      <td>Cyber-physical management cycle & data chain taxonomy (PM, MG, EOD).</td>
+      <td>\( \text{Sense} \rightarrow \text{Analyze} \rightarrow \text{Plan} \rightarrow \text{Intervene} \)</td>
+      <td><span class="badge">Sec II-B (p.2)</span><br><span class="badge">Sec III (p.3)</span></td>
+    </tr>
+    <tr>
+      <td><code>[9]</code></td>
+      <td><strong>Long-Term Buyer-Supplier Relationships</strong><br>D. P. Claro et al. (2004)</td>
+      <td><a href="references/2_Claro_2004_Buyer_Supplier_Relationships_TCE.pdf">📄 Open PDF (356 KB)</a></td>
+      <td>Transaction Cost Economics (TCE), joint planning, trust, and flexibility.</td>
+      <td>\( U_{\text{rel}} = f(\text{TSI}, \text{Trust}, \text{Joint Action}, \text{Flexibility}) \)</td>
+      <td><span class="badge">Sec VI-A (p.4)</span></td>
+    </tr>
+    <tr>
+      <td><code>[10]</code></td>
+      <td><strong>Buyer-Seller Networks Evolution</strong><br>R. Hisano, D. Sornette, T. Mizuno (2017)</td>
+      <td><a href="references/7_Hisano_2017_Buyer_Seller_Networks.pdf">📄 Open PDF (1.7 MB)</a></td>
+      <td>Buyer-seller network stability & bilateral reputation reducing market volatility.</td>
+      <td>\( P(\text{link}_{ij, t+1} = 1 \mid \text{deal}) = \sigma(\beta_0 + \beta_1 \text{Rating} + \dots) \)</td>
+      <td><span class="badge">Sec II-C (p.2)</span><br><span class="badge">Sec VI-A (p.4)</span></td>
+    </tr>
+    <tr>
+      <td><code>[11]</code></td>
+      <td><strong>Zhinong AI: Design-Science Study</strong><br>Z. Li et al. (2026)</td>
+      <td><a href="references/1_Li_2026_Zhinong_AI_Design_Science.pdf">📄 Open PDF (315 KB)</a></td>
+      <td>Closed-loop socio-technical framework connecting advice to plot ledger records.</td>
+      <td>\( \text{Sense} \rightarrow \text{Analyze} \rightarrow \text{Plan} \rightarrow \text{Execute} \rightarrow \text{Feedback} \)</td>
+      <td><span class="badge">Sec I (p.1)</span><br><span class="badge">Sec III-A (p.3)</span></td>
+    </tr>
+    <tr>
+      <td><code>[12]</code></td>
+      <td><strong>Produce Price Forecasting in India</strong><br>W. Ma et al. (CMU / CoolCrop, 2018)</td>
+      <td><a href="references/5_Ma_2018_Interpretable_Produce_Price_Forecasting_India.pdf">📄 Open PDF (4.0 MB)</a></td>
+      <td>Adaptive Nearest Neighbor kernel formulation & empirical leaf prediction intervals.</td>
+      <td>\( W(\mathbf{x}_i, \mathbf{x}) = \frac{1}{T}\sum \frac{\mathbb{I}(\mathbf{x}_i \in \mathcal{R}_t(\mathbf{x}))}{\sum \mathbb{I}(\mathbf{x}_j \in \mathcal{R}_t(\mathbf{x}))} \)<br>\( [L(\mathbf{x}), U(\mathbf{x})] = [\text{Pct}_{10}, \text{Pct}_{90}] \)</td>
+      <td><span class="badge">Sec IV-C (p.3)</span></td>
+    </tr>
+    <tr>
+      <td><code>[13]</code></td>
+      <td><strong>Agri Price Forecasting & Market Analysis</strong><br>A. Kumar (IIT Patna, 2021)</td>
+      <td><a href="references/6_Kumar_IIT_Patna_Agri_Price_Forecasting.pdf">📄 Open PDF (1.7 MB)</a></td>
+      <td>Arrival volume lag feature engineering and nonlinear APMC price momentum.</td>
+      <td>\( P_t = \sum \phi_k P_{t-k} + \sum \theta_j \ln(1 + V_{t-j}) + \epsilon_t \)</td>
+      <td><span class="badge">Sec II-A (p.2)</span><br><span class="badge">Sec IV-B (p.3)</span></td>
+    </tr>
+    <tr>
+      <td><code>[14]</code></td>
+      <td><strong>Demand Forecasting of Agriculture ML</strong><br>B. J. Chelliah et al. (2022)</td>
+      <td><a href="references/4_Chelliah_2022_Demand_Forecasting_Agriculture_ML.pdf">📄 Open PDF (2.7 MB)</a></td>
+      <td>Zonal-to-national agricultural demand forecasting and multi-factor planning.</td>
+      <td>\( D_{\text{zonal}} = f(W_A, T, S, \text{Historical Yield}) \)</td>
+      <td><span class="badge">Sec II-D (p.2)</span></td>
+    </tr>
+    <tr>
+      <td><code>[15]</code></td>
+      <td><strong>Machine Learning in Agriculture Review</strong><br>K. G. Liakos et al. (Sensors, 2018)</td>
+      <td><a href="references/8_Liakos_2018_Machine_Learning_Agriculture_Review.pdf">📄 Open PDF (1.4 MB)</a></td>
+      <td>Domain taxonomy of ML applications across yield, disease, and commodity pricing.</td>
+      <td>Taxonomic review of tree ensembles & neural models across 40+ agri systems.</td>
+      <td><span class="badge">Sec II-A (p.2)</span></td>
+    </tr>
+    <tr>
+      <td><code>[16]</code></td>
+      <td><strong>Tabular Data: Deep Learning Not All You Need</strong><br>R. Shwartz-Ziv & A. Armon (2022)</td>
+      <td><a href="references/18_Shwartz_Ziv_2022_Tabular_Data_Deep_Learning.pdf">📄 Open PDF (468 KB)</a></td>
+      <td>Empirical justification for tree ensembles over deep neural nets on tabular data.</td>
+      <td>Comparative benchmark: RF runtime 38 s vs. LSTM 482 s with higher \( R^2 \) (0.9687).</td>
+      <td><span class="badge">Sec II-A (p.2)</span><br><span class="badge">Sec VIII-A (p.5)</span></td>
+    </tr>
+    <tr>
+      <td><code>[17]</code></td>
+      <td><strong>XGBoost: Scalable Tree Boosting</strong><br>T. Chen & C. Guestrin (2016)</td>
+      <td><a href="references/21_Chen_2016_XGBoost_KDD.pdf">📄 Open PDF (923 KB)</a></td>
+      <td>Regularized gradient boosting objective and comparative tabular benchmarking.</td>
+      <td>\( \mathcal{L}^{(t)} = \sum l(y_i, \hat{y}_i^{(t-1)} + f_t(x_i)) + \Omega(f_t) \)</td>
+      <td><span class="badge">Sec II-A (p.2)</span></td>
+    </tr>
+    <tr>
+      <td><code>[18]</code></td>
+      <td><strong>Language Models are Few-Shot Learners (GPT-3)</strong><br>T. Brown et al. (NeurIPS 2020)</td>
+      <td><a href="references/24_Brown_2020_Language_Models_Few_Shot_Learners.pdf">📄 Open PDF (6.5 MB)</a></td>
+      <td>Autoregressive foundation models and prompt conditioning.</td>
+      <td>\( p(x) = \prod_{i=1}^n p(x_i \mid x_1, \dots, x_{i-1}) \)</td>
+      <td><span class="badge">Sec II-D (p.2)</span></td>
+    </tr>
+    <tr>
+      <td><code>[19]</code></td>
+      <td><strong>Survey of Hallucination in NLG</strong><br>Z. Ji et al. (ACM CSUR 2023)</td>
+      <td><a href="references/25_Ji_2023_Survey_Hallucination_Natural_Language.pdf">📄 Open PDF (3.8 MB)</a></td>
+      <td>Theoretical justification for cosine similarity fallback guardrails.</td>
+      <td>\( \text{sim}(\mathbf{q}, \mathbf{d}_{(1)}) < 0.45 \implies \text{Trigger KVK Fallback} \)</td>
+      <td><span class="badge">Sec V-C (p.4)</span></td>
+    </tr>
+    <tr>
+      <td><code>[20]</code></td>
+      <td><strong>Attention Is All You Need (Transformers)</strong><br>A. Vaswani et al. (NeurIPS 2017)</td>
+      <td><a href="references/28_Vaswani_2017_Attention_Is_All_You_Need.pdf">📄 Open PDF (2.1 MB)</a></td>
+      <td>Multi-head self-attention architecture powering Sentence-BERT encoders.</td>
+      <td>\( \text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V \)</td>
+      <td><span class="badge">Sec V-A (p.4)</span></td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

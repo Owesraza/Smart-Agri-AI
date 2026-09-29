@@ -1,0 +1,112 @@
+[
+  {
+    "id": "crop_wheat",
+    "type": "crop_info",
+    "crop": "Wheat",
+    "content": "Wheat is a rabi crop grown from October to March in India. Major growing states are Punjab, Haryana, Uttar Pradesh, Madhya Pradesh. MSP for wheat 2024-25 is Rs 2275 per quintal. Best selling season is April-May after harvest. Wheat prices typically rise in October-November due to sowing demand. Store wheat below 12% moisture. Key mandis: Hapur, Narela, Khanna. Average yield: 40-50 quintals per acre.",
+    "tags": ["wheat", "rabi", "msp", "storage", "yield"]
+  },
+  {
+    "id": "crop_onion",
+    "type": "crop_info",
+    "crop": "Onion",
+    "content": "Onion is grown in kharif and rabi seasons. Maharashtra produces 40% of India's onions. Key mandi: Lasalgaon APMC is Asia's largest onion market. Onion prices are highly volatile — can swing 50-200% within weeks. Best selling window is 2-3 months post harvest. MSP not fixed but government intervenes via NAFED. Storage in cool dry place extends shelf life 3-4 months. Typical price range Rs 800-3500 per quintal. Export bans affect prices significantly.",
+    "tags": ["onion", "lasalgaon", "volatile", "nafed", "maharashtra"]
+  },
+  {
+    "id": "crop_tomato",
+    "type": "crop_info",
+    "crop": "Tomato",
+    "content": "Tomato is a high-value perishable crop. Cannot be stored beyond 7-10 days. Prices are extremely seasonal — crash to Rs 100/quintal in peak season and spike to Rs 2000+ in off-season. Major markets: Kolar (Karnataka), Nashik (Maharashtra). Sell within 3 days of harvest. Cold chain reduces losses significantly. Monsoon disruption causes major price spikes. Do not hold tomatoes — always sell immediately.",
+    "tags": ["tomato", "perishable", "price_volatile", "sell_immediately"]
+  },
+  {
+    "id": "crop_cotton",
+    "type": "crop_info",
+    "crop": "Cotton",
+    "content": "Cotton is a kharif crop harvested October-February. MSP for cotton 2024-25: Rs 7121 per quintal (long staple), Rs 6620 (medium staple). Major states: Gujarat, Maharashtra, Telangana. Cotton can be stored 6-12 months safely. Prices improve November-January. CCI (Cotton Corporation of India) procures at MSP. Export demand from China affects prices. Avoid selling in October — wait for November-December for better prices.",
+    "tags": ["cotton", "kharif", "msp", "cci", "storage"]
+  },
+  {
+    "id": "crop_soybean",
+    "type": "crop_info",
+    "crop": "Soybean",
+    "content": "Soybean is a kharif oilseed crop. MSP 2024-25: Rs 4892 per quintal. Major growing states: Madhya Pradesh, Maharashtra, Rajasthan. Harvest: October-November. Prices typically softer at harvest and firm up January onwards. Safe storage for 6 months in dry conditions. NAFED and state agencies procure at MSP. Export demand affects prices. Processing demand from soyoil and soy meal industry.",
+    "tags": ["soybean", "oilseed", "kharif", "msp", "nafed"]
+  },
+  {
+    "id": "crop_rice",
+    "type": "crop_info",
+    "crop": "Rice",
+    "content": "Rice (Paddy) is a kharif staple crop. MSP for common paddy 2024-25: Rs 2300 per quintal. Major states: West Bengal, Punjab, Uttar Pradesh, Andhra Pradesh. Harvested October-December. Government procurement through FCI at MSP. Basmati rice commands premium — Rs 3500-6000/quintal. Store paddy below 14% moisture for 12+ months. Export demand for basmati is strong. Sell to government procurement centers for guaranteed MSP.",
+    "tags": ["rice", "paddy", "kharif", "msp", "fci", "basmati"]
+  },
+  {
+    "id": "crop_maize",
+    "type": "crop_info",
+    "crop": "Maize",
+    "content": "Maize is grown in both kharif and rabi seasons. MSP 2024-25: Rs 2225 per quintal. Major states: Karnataka, Madhya Pradesh, Bihar. Poultry feed industry drives 60% demand. Prices improve April-June. Ethanol blending policy boosting demand significantly. Store in dry conditions for 6 months. Key buyers: NAFED, poultry companies, starch industries.",
+    "tags": ["maize", "poultry", "ethanol", "msp", "storage"]
+  },
+  {
+    "id": "crop_potato",
+    "type": "crop_info",
+    "crop": "Potato",
+    "content": "Potato is a rabi vegetable crop. No fixed MSP but state governments intervene. Major states: Uttar Pradesh, West Bengal, Bihar. Cold storage essential — extends shelf life 6-8 months. Prices crash during March-April harvest; improve August-September. Processing demand from chips and fry industry growing. Sell 40% at harvest, store 60% for August-September when prices are 2x higher. Key mandis: Agra, Aligarh, Farrukhabad.",
+    "tags": ["potato", "cold_storage", "rabi", "price_cycle", "processing"]
+  },
+  {
+    "id": "scheme_pmkisan",
+    "type": "government_scheme",
+    "content": "PM-KISAN Yojana: Central government scheme providing Rs 6000 per year direct income support to farmer families in three equal installments of Rs 2000. Eligible: All landholding farmer families. Exclusions: Income taxpayers, government employees, professionals. How to apply: PM-KISAN portal or Common Service Centers. Documents: Aadhaar, land records, bank account.",
+    "tags": ["pm-kisan", "subsidy", "government", "income_support"]
+  },
+  {
+    "id": "scheme_msp",
+    "type": "government_scheme",
+    "content": "MSP (Minimum Support Price): Government announces MSP for 23 crops every year. Key crops: Wheat Rs 2275, Rice Rs 2300, Cotton Rs 6620-7121, Soybean Rs 4892, Maize Rs 2225 (2024-25). Procurement through FCI, NAFED, CCI, state agencies. Farmer must register at nearest procurement center with land records and Aadhaar. Payment via DBT within 72 hours of sale.",
+    "tags": ["msp", "minimum_support_price", "government", "fci", "nafed"]
+  },
+  {
+    "id": "scheme_fasal_bima",
+    "type": "government_scheme",
+    "content": "PMFBY (Pradhan Mantri Fasal Bima Yojana): Crop insurance scheme. Premium: 2% for kharif, 1.5% for rabi, 5% for horticulture. Coverage: Natural calamities, pests, disease. How to claim: Inform within 72 hours of crop loss. Apply through banks, CSC, or PMFBY portal. Maximum claim based on sum insured per crop per district.",
+    "tags": ["pmfby", "crop_insurance", "government", "fasal_bima"]
+  },
+  {
+    "id": "faq_sell_timing",
+    "type": "faq",
+    "content": "When is the best time to sell crops? For perishable crops (tomato, onion, leafy vegetables) — sell within 3-7 days of harvest. For cereals (wheat, rice, maize) — monitor MSP and mandi prices weekly for 30-60 days post harvest. For cash crops (cotton, soybean) — prices generally improve 2-3 months after harvest. Always compare: current mandi price vs storage cost vs price trend before deciding to hold or sell.",
+    "tags": ["sell_timing", "decision", "hold", "storage_advice"]
+  },
+  {
+    "id": "faq_mandi_choice",
+    "type": "faq",
+    "content": "How to choose the best mandi? Compare: distance vs transport cost vs price difference. Generally price difference should be 5-10% higher to justify extra 50 km travel. Check: AGMARKNET website for daily prices across mandis. Consider: Auction system reputation, payment terms (same day vs 3-day), facilities at mandi. Register at mandi using Aadhaar and land records before selling.",
+    "tags": ["mandi", "apmc", "transport", "agmarknet", "registration"]
+  },
+  {
+    "id": "faq_storage",
+    "type": "faq",
+    "content": "When should you store vs sell immediately? Store when: Current prices are at seasonal low, uptrend detected in last 7-14 days, you have quality storage facility, crop can be safely stored (cereals 6-12 months, pulses 6-9 months). Sell immediately when: Crop is perishable (tomato, leafy), monsoon approaching which may damage stock, you need immediate cash, prices showing consistent downtrend for 14+ days.",
+    "tags": ["storage", "sell", "decision", "perishable", "seasonality"]
+  },
+  {
+    "id": "market_trend_knowledge",
+    "type": "market_knowledge",
+    "content": "Market trends in Indian agriculture follow seasonal patterns. Prices typically fall during harvest season (kharif: Oct-Nov, rabi: Mar-Apr) due to supply glut. Prices rise during lean season (opposite of harvest). Export bans cause immediate domestic price crashes. Weather shocks (drought, floods) in major producing regions cause 20-50% price spikes within 2 weeks. EMA-7 crossing above EMA-14 signals short-term uptrend. Consistent EMA-30 uptrend with 3+ weeks of rising prices indicates strong bull market.",
+    "tags": ["market_trend", "ema", "seasonal", "export", "weather_impact"]
+  },
+  {
+    "id": "profit_calculation",
+    "type": "agricultural_knowledge",
+    "content": "Farm profit calculation: Net Profit = Revenue - (Seed Cost + Fertilizer + Pesticide + Labour + Irrigation + Transport + Packaging + Market Cess). Typical cost breakdown per acre for wheat: Seed Rs 1500, Fertilizer Rs 3000, Labour Rs 4000, Irrigation Rs 2000, Transport Rs 800, Total Cost ~Rs 12000, Revenue at MSP: Rs 2275 x 45 quintal = Rs 102375, Net Profit ~Rs 90375 per acre. Track all expenses from sowing to selling for accurate profit calculation.",
+    "tags": ["profit", "cost", "calculation", "per_acre", "net_profit"]
+  },
+  {
+    "id": "weather_agriculture",
+    "type": "agricultural_knowledge",
+    "content": "Weather impact on agriculture and crop prices: Deficit monsoon (less than 90% of normal) — expect 10-20% price rise for kharif crops. Excess rain during harvest — quality damage, prices may fall 5-10% due to moisture content issues. Cold wave during rabi — wheat yields improve, prices stable. Hailstorm — localized damage, immediate price spike in that region. El Nino years — typically below normal monsoon — bullish for most agricultural commodities.",
+    "tags": ["weather", "monsoon", "kharif", "rabi", "price_impact", "el_nino"]
+  }
+]

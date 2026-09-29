@@ -1,0 +1,1722 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [7 0 R 9 0 R 11 0 R 13 0 R 15 0 R] /Count 5 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 14817 >>
+stream
+0.060 0.320 0.160 rg
+1.00 w 40.00 708.89 515.28 88.00 re f
+0.920 0.720 0.150 rg
+1.00 w 40.00 708.89 515.28 4.00 re f
+1.000 1.000 1.000 rg
+BT /F2 18.00 Tf 56.00 766.89 Td (SMART AGRI AI / CROPPOINT) Tj ET
+0.850 0.940 0.880 rg
+BT /F1 10.00 Tf 56.00 748.89 Td (Current Project Progress & Complete Architectural Audit Report) Tj ET
+0.700 0.850 0.750 rg
+BT /F1 8.50 Tf 56.00 726.89 Td (Project: Final Year B.Tech / BE Academic Capstone | Tech: React, FastAPI, PyTorch, FAISS) Tj ET
+BT /F2 8.50 Tf 362.48 726.89 Td (Status: 100% Core End-to-End Operational) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 9.00 Tf 40.00 683.89 Td (This formal progress report documents the empirical audit of the Smart Agri AI / CropPoint platform. Every) Tj ET
+BT /F1 9.00 Tf 40.00 670.89 Td (single feature has been verified directly against the production codebase across frontend interfaces, FastAPI) Tj ET
+BT /F1 9.00 Tf 40.00 657.89 Td (asynchronous backend routes, SQLAlchemy relational database schemas, and AI/ML model pipelines.) Tj ET
+0.930 0.960 0.940 rg
+0.120 0.420 0.220 RG
+0.80 w 40.00 615.89 515.28 24.00 re B
+0.080 0.420 0.200 rg
+1.00 w 40.00 615.89 26.00 24.00 re f
+1.000 1.000 1.000 rg
+BT /F2 11.00 Tf 47.00 622.89 Td (1) Tj ET
+0.080 0.250 0.120 rg
+BT /F2 10.50 Tf 74.00 622.89 Td (FARMER MODULE AUDIT \(25 FEATURES\)) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 8.50 Tf 474.56 622.89 Td (Verified in Code) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 9.00 Tf 40.00 598.89 Td (Below is the exhaustive verification of all features currently implemented and active for the Farmer role:) Tj ET
+0.080 0.320 0.160 rg
+1.00 w 40.00 570.89 515.28 20.00 re f
+1.000 1.000 1.000 rg
+BT /F2 8.50 Tf 45.00 576.89 Td (#) Tj ET
+BT /F2 8.50 Tf 69.00 576.89 Td (Feature Name) Tj ET
+BT /F2 8.50 Tf 199.00 576.89 Td (Status) Tj ET
+BT /F2 8.50 Tf 259.00 576.89 Td (Codebase Implementation & Verification Details) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 553.89 m 555.28 553.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 558.89 Td (1) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 558.89 Td (Registration & Login) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 556.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 559.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 558.89 Td (FarmerRegister.jsx + /api/v1/auth/login. JWT auth, 30-day se..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 536.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 536.89 m 555.28 536.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 541.89 Td (2) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 541.89 Td (Farmer Profile) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 539.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 542.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 541.89 Td (Profile.jsx + /api/v1/users/me. Full name, phone, district, ..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 519.89 m 555.28 519.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 524.89 Td (3) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 524.89 Td (Farm / Plot Management) Tj ET
+0.850 0.550 0.080 rg
+1.00 w 199.00 522.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 525.89 Td (PARTIAL) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 524.89 Td (PlotManagement.jsx + /api/v1/plots. Full CRUD code present; ..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 502.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 502.89 m 555.28 502.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 507.89 Td (4) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 507.89 Td (Crop Management) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 505.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 508.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 507.89 Td (PlotModel & CropListingModel. Real crop types, stages, stock..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 485.89 m 555.28 485.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 490.89 Td (5) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 490.89 Td (Create Crop Listing) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 488.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 491.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 490.89 Td (MyCropListings.jsx + POST /api/v1/listings with crop, Qtl, a..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 468.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 468.89 m 555.28 468.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 473.89 Td (6) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 473.89 Td (Edit/Delete Listing) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 471.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 474.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 473.89 Td (PUT/DELETE /api/v1/listings/{id} + mark as SOLD status trans..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 451.89 m 555.28 451.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 456.89 Td (7) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 456.89 Td (AI Price Recommendation) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 454.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 457.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 456.89 Td (/api/v1/recommendations/smart-price. Mandi-anchored fair val..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 434.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 434.89 m 555.28 434.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 439.89 Td (8) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 439.89 Td (Market / Mandi Prices) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 437.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 440.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 439.89 Td (MarketIntelligence.jsx + /api/v1/market/prices \(Agmarknet AP..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 417.89 m 555.28 417.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 422.89 Td (9) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 422.89 Td (Market Intelligence) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 420.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 423.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 422.89 Td (EMA-7/14/30 momentum signals, price trends, district compari..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 400.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 400.89 m 555.28 400.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 405.89 Td (10) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 405.89 Td (Weather Information) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 403.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 406.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 405.89 Td (WeatherCard.jsx + /api/v1/weather/current. Temp, humidity, r..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 383.89 m 555.28 383.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 388.89 Td (11) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 388.89 Td (Weather Risk Assessment) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 386.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 389.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 388.89 Td (weather_service.py agro-risk engine: harvest rain and pest r..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 366.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 366.89 m 555.28 366.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 371.89 Td (12) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 371.89 Td (Buyer Purchase Requests) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 369.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 372.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 371.89 Td (MyCropListings.jsx + /api/v1/requests/farmer/received list.) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 349.89 m 555.28 349.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 354.89 Td (13) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 354.89 Td (Accept/Reject Requests) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 352.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 355.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 354.89 Td (PUT /api/v1/requests/{id}/accept & reject with live state sy..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 332.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 332.89 m 555.28 332.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 337.89 Td (14) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 337.89 Td (Deal Management) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 335.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 338.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 337.89 Td (deals.py & DealModel. Legally binding trade contracts in SQL..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 315.89 m 555.28 315.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 320.89 Td (15) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 320.89 Td (Order Tracking) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 318.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 321.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 320.89 Td (CropListingOrderTimeline.jsx. 4-milestone horizontal progres..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 298.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 298.89 m 555.28 298.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 303.89 Td (16) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 303.89 Td (Dispatch Status) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 301.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 304.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 303.89 Td (PATCH /api/v1/deals/{id}/order-status. Auto distance & ETA c..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 281.89 m 555.28 281.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 286.89 Td (17) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 286.89 Td (Out for Delivery) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 284.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 287.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 286.89 Td (PATCH /api/v1/deals/{id}/order-status. Live delivery transit..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 264.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 264.89 m 555.28 264.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 269.89 Td (18) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 269.89 Td (Delivered Status) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 267.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 270.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 269.89 Td (Status marks Delivered; triggers automatic Ledger income & i..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 247.89 m 555.28 247.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 252.89 Td (19) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 252.89 Td (WhatsApp Communication) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 250.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 253.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 252.89 Td (One-click wa.me link pre-populated with crop, Qtl, and agree..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 230.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 230.89 m 555.28 230.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 235.89 Td (20) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 235.89 Td (Real-Time Notifications) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 233.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 236.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 235.89 Td (TopNav.jsx bell + /api/v1/notifications. Deal & delivery pus..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 213.89 m 555.28 213.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 218.89 Td (21) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 218.89 Td (Digital Ledger) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 216.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 219.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 218.89 Td (Ledger.jsx + /api/v1/ledger. Auto-captures marketplace crop ..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 196.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 196.89 m 555.28 196.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 201.89 Td (22) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 201.89 Td (Farm Analytics) Tj ET
+0.850 0.550 0.080 rg
+1.00 w 199.00 199.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 202.89 Td (PARTIAL) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 201.89 Td (Analytics.jsx + /api/v1/analytics charts exist; unlinked fro..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 179.89 m 555.28 179.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 184.89 Td (23) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 184.89 Td (Ratings & Reviews) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 182.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 185.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 184.89 Td (ratings.py + /api/v1/ratings. 1-5 star ratings with verified..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 162.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 162.89 m 555.28 162.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 167.89 Td (24) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 167.89 Td (AI Advisory Assistant) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 165.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 168.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 167.89 Td (AIAssistant.jsx + AIChatBubble.jsx. Conversational LLM + RAG.) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 145.89 m 555.28 145.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 150.89 Td (25) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 150.89 Td (Language Support) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 148.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 151.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 150.89 Td (LanguageContext.jsx. Full English, Hindi, and Marathi transl..) Tj ET
+0.950 0.980 0.950 rg
+0.100 0.450 0.220 RG
+1.00 w 40.00 74.89 515.28 63.00 re B
+0.100 0.450 0.220 rg
+1.00 w 40.00 74.89 4.00 63.00 re f
+0.100 0.450 0.220 rg
+BT /F2 9.50 Tf 52.00 121.89 Td (ADDITIONAL FARMER FEATURES PRESENT IN CODEBASE) Tj ET
+0.120 0.140 0.160 rg
+BT /F1 8.50 Tf 52.00 107.89 Td (- Pre-Harvest Advance Selling: Farmers specify advance_days \(15-30 days\) to lock contracts prior to cutting crop.) Tj ET
+BT /F1 8.50 Tf 52.00 94.89 Td (- Official Deal Invoices: Automated tax invoice generation with GST breakdown, order number, and download.) Tj ET
+BT /F1 8.50 Tf 52.00 81.89 Td (- Mandi Benchmark Safeguard: Visual price badge comparing asking price with APMC modal to avoid loss.) Tj ET
+0.850 0.880 0.860 RG
+0.50 w 40.00 34.00 m 555.28 34.00 l S
+0.450 0.500 0.480 rg
+BT /F1 7.5 Tf 40.00 22.00 Td (CropPoint / Smart Agri AI -- Pair Programming Audit & Verification Report) Tj ET
+BT /F2 8.0 Tf 500.28 22.00 Td (Page 1 of 5) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 6 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+8 0 obj
+<< /Length 17797 >>
+stream
+0.400 0.450 0.500 rg
+BT /F1 8.00 Tf 40.00 813.89 Td (SMART AGRI AI / CROPPOINT -- PROJECT PROGRESS REPORT) Tj ET
+BT /F2 8.00 Tf 467.92 813.89 Td (ACADEMIC MENTOR AUDIT) Tj ET
+0.850 0.880 0.860 RG
+0.50 w 40.00 809.89 m 555.28 809.89 l S
+0.930 0.960 0.940 rg
+0.120 0.420 0.220 RG
+0.80 w 40.00 762.89 515.28 24.00 re B
+0.080 0.420 0.200 rg
+1.00 w 40.00 762.89 26.00 24.00 re f
+1.000 1.000 1.000 rg
+BT /F2 11.00 Tf 47.00 769.89 Td (2) Tj ET
+0.080 0.250 0.120 rg
+BT /F2 10.50 Tf 74.00 769.89 Td (BUYER MODULE AUDIT \(28 FEATURES\)) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 8.50 Tf 474.56 769.89 Td (Verified in Code) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 9.00 Tf 40.00 745.89 Td (Verification of all 28 features available for wholesale buyers, food processors, and commodity traders:) Tj ET
+0.080 0.320 0.160 rg
+1.00 w 40.00 717.89 515.28 20.00 re f
+1.000 1.000 1.000 rg
+BT /F2 8.50 Tf 45.00 723.89 Td (#) Tj ET
+BT /F2 8.50 Tf 69.00 723.89 Td (Feature Name) Tj ET
+BT /F2 8.50 Tf 199.00 723.89 Td (Status) Tj ET
+BT /F2 8.50 Tf 259.00 723.89 Td (Codebase Implementation & Verification Details) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 700.89 m 555.28 700.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 705.89 Td (1) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 705.89 Td (Buyer Registration & Login) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 703.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 706.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 705.89 Td (BuyerRegister.jsx with role=buyer, redirects to /buyer.) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 683.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 683.89 m 555.28 683.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 688.89 Td (2) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 688.89 Td (Buyer Profile) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 686.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 689.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 688.89 Td (Profile.jsx + /api/v1/users/me. Name, mobile, location, comp..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 666.89 m 555.28 666.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 671.89 Td (3) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 671.89 Td (Company / Business Details) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 669.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 672.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 671.89 Td (Stores companyName and valid gstNumber in User schema.) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 649.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 649.89 m 555.28 649.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 654.89 Td (4) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 654.89 Td (Marketplace Access) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 652.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 655.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 654.89 Td (Marketplace.jsx. Public & authenticated active crop trade fl..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 632.89 m 555.28 632.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 637.89 Td (5) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 637.89 Td (Search Crops) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 635.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 638.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 637.89 Td (Instant real-time search input by commodity name across list..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 615.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 615.89 m 555.28 615.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 620.89 Td (6) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 620.89 Td (Filter Crops) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 618.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 621.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 620.89 Td (Multi-facet filter: Category \(Grains, Veg, Pulses\), Grade, D..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 598.89 m 555.28 598.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 603.89 Td (7) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 603.89 Td (View Farmer Listings) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 601.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 604.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 603.89 Td (Detailed cards showing farmer name, district, farm yard, date.) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 581.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 581.89 m 555.28 581.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 586.89 Td (8) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 586.89 Td (View Asking Price) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 584.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 587.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 586.89 Td (Price per quintal displayed with APMC Mandi benchmark compar..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 564.89 m 555.28 564.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 569.89 Td (9) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 569.89 Td (View Crop Quantity) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 567.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 570.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 569.89 Td (Exact available quintal volume shown with remaining balance.) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 547.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 547.89 m 555.28 547.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 552.89 Td (10) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 552.89 Td (View Quality Grade) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 550.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 553.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 552.89 Td (Badges for Grade A, Grade B, Grade C, and Organic certificat..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 530.89 m 555.28 530.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 535.89 Td (11) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 535.89 Td (Purchase Request) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 533.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 536.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 535.89 Td (Purchase request modal posting directly to POST /api/v1/requ..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 513.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 513.89 m 555.28 513.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 518.89 Td (12) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 518.89 Td (Offer / Bidding) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 516.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 519.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 518.89 Td (Custom counter-offer price input + 'AI Negotiator' recommend..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 496.89 m 555.28 496.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 501.89 Td (13) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 501.89 Td (Request Status Tracker) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 499.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 502.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 501.89 Td (MyBuyingRequirements.jsx under 'Sent Requests' tab.) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 479.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 479.89 m 555.28 479.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 484.89 Td (14) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 484.89 Td (Accept/Reject Feedback) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 482.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 485.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 484.89 Td (Instant status badges: Pending \(Amber\), Accepted \(Green\), Re..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 462.89 m 555.28 462.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 467.89 Td (15) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 467.89 Td (Deal / Order Tracking) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 465.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 468.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 467.89 Td (Active Orders section rendering OrderTrackingCard.jsx compon..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 445.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 445.89 m 555.28 445.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 450.89 Td (16) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 450.89 Td (Order Confirmed Stage) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 448.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 451.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 450.89 Td (First fulfillment milestone showing order number and confirm..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 428.89 m 555.28 428.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 433.89 Td (17) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 433.89 Td (Dispatched Stage) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 431.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 434.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 433.89 Td (Second milestone indicating carrier dispatch and transit sta..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 411.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 411.89 m 555.28 411.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 416.89 Td (18) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 416.89 Td (Out for Delivery Stage) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 414.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 417.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 416.89 Td (Third milestone showing crop consignment in local delivery s..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 394.89 m 555.28 394.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 399.89 Td (19) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 399.89 Td (Delivered Stage) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 397.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 400.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 399.89 Td (Final completed state unlocking formal tax invoice and rating.) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 377.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 377.89 m 555.28 377.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 382.89 Td (20) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 382.89 Td (Expected Delivery Date) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 380.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 383.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 382.89 Td (Dynamic delivery date computed via distance slabs in distanc..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 360.89 m 555.28 360.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 365.89 Td (21) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 365.89 Td (Distance Calculation) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 363.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 366.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 365.89 Td (Haversine formula with 1.25x road factor across 36 districts.) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 343.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 343.89 m 555.28 343.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 348.89 Td (22) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 348.89 Td (Freight Estimation) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 346.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 349.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 348.89 Td (Freight cost \(Rs. 0.50/Qtl/km\) + proximity tags \(Local, Near..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 326.89 m 555.28 326.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 331.89 Td (23) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 331.89 Td (WhatsApp Communication) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 329.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 332.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 331.89 Td (Direct wa.me link to farmer with crop, volume, and agreed ra..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 309.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 309.89 m 555.28 309.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 314.89 Td (24) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 314.89 Td (Buyer Requirements) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 312.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 315.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 314.89 Td (MyBuyingRequirements.jsx: Post and manage bulk buying requir..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 292.89 m 555.28 292.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 297.89 Td (25) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 297.89 Td (Real-Time Notifications) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 295.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 298.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 297.89 Td (Navbar notifications on request acceptance, dispatch, and de..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 275.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 275.89 m 555.28 275.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 280.89 Td (26) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 280.89 Td (Ratings & Reviews) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 278.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 281.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 280.89 Td (1-5 star rating modal with feedback review saved to ratings ..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 258.89 m 555.28 258.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 263.89 Td (27) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 263.89 Td (AI Assistant Access) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 261.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 264.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 263.89 Td (AIAssistant.jsx provides procurement timing and price foreca..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 241.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 241.89 m 555.28 241.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 246.89 Td (28) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 246.89 Td (Language Support) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 199.00 244.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 247.89 Td (DONE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 246.89 Td (Complete English, Hindi, and Marathi language switching.) Tj ET
+0.930 0.960 0.940 rg
+0.120 0.420 0.220 RG
+0.80 w 40.00 199.89 515.28 24.00 re B
+0.080 0.420 0.200 rg
+1.00 w 40.00 199.89 26.00 24.00 re f
+1.000 1.000 1.000 rg
+BT /F2 11.00 Tf 47.00 206.89 Td (3) Tj ET
+0.080 0.250 0.120 rg
+BT /F2 10.50 Tf 74.00 206.89 Td (FARMER VS BUYER FEATURE MATRIX) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 8.50 Tf 452.46 206.89 Td (Role-Based Comparison) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 9.00 Tf 40.00 182.89 Td (A clear side-by-side comparison of role capabilities designed for college mentor evaluation:) Tj ET
+0.080 0.320 0.160 rg
+1.00 w 40.00 154.89 515.28 20.00 re f
+1.000 1.000 1.000 rg
+BT /F2 8.50 Tf 45.00 160.89 Td (Platform Feature) Tj ET
+BT /F2 8.50 Tf 170.00 160.89 Td (Farmer Role Capability) Tj ET
+BT /F2 8.50 Tf 365.00 160.89 Td (Buyer Role Capability) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 137.89 m 555.28 137.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 142.89 Td (Registration / Login) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 170.00 142.89 Td ([DONE] Farmer registration & JWT auth) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 365.00 142.89 Td ([DONE] Buyer registration with company..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 120.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 120.89 m 555.28 120.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 125.89 Td (Profile Management) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 170.00 125.89 Td ([DONE] Farm size, location, bank details) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 365.00 125.89 Td ([DONE] Business name, GST number, loca..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 103.89 m 555.28 103.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 108.89 Td (Marketplace Access) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 170.00 108.89 Td ([DONE] View market rates & own listings) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 365.00 108.89 Td ([DONE] Search, filter, negotiate & pur..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 86.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 86.89 m 555.28 86.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 91.89 Td (Crop Listing) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 170.00 91.89 Td ([DONE] Create, edit, delete, mark sold) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 365.00 91.89 Td ([NOT IMPL] Not applicable \(Buyers post..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 69.89 m 555.28 69.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 74.89 Td (Demand Requirements) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 170.00 74.89 Td ([NOT IMPL] Not applicable \(Farmers sup..) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 365.00 74.89 Td ([DONE] Post, edit, and close buying or..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 52.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 52.89 m 555.28 52.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 57.89 Td (Purchase Requests) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 170.00 57.89 Td ([DONE] Receives, reviews, accepts/reje..) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 365.00 57.89 Td ([DONE] Creates, submits, and tracks bids) Tj ET
+0.850 0.880 0.860 RG
+0.50 w 40.00 34.00 m 555.28 34.00 l S
+0.450 0.500 0.480 rg
+BT /F1 7.5 Tf 40.00 22.00 Td (CropPoint / Smart Agri AI -- Pair Programming Audit & Verification Report) Tj ET
+BT /F2 8.0 Tf 500.28 22.00 Td (Page 2 of 5) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 8 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+10 0 obj
+<< /Length 16001 >>
+stream
+0.400 0.450 0.500 rg
+BT /F1 8.00 Tf 40.00 813.89 Td (SMART AGRI AI / CROPPOINT -- PROJECT PROGRESS REPORT) Tj ET
+BT /F2 8.00 Tf 467.92 813.89 Td (ACADEMIC MENTOR AUDIT) Tj ET
+0.850 0.880 0.860 RG
+0.50 w 40.00 809.89 m 555.28 809.89 l S
+0.880 0.900 0.880 RG
+0.40 w 40.00 779.89 m 555.28 779.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 784.89 Td (Deal Contract) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 170.00 784.89 Td ([DONE] Manages order fulfillment stages) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 365.00 784.89 Td ([DONE] Monitors contract terms and mil..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 762.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 762.89 m 555.28 762.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 767.89 Td (Order Tracking) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 170.00 767.89 Td ([DONE] Advances: Confirmed -> Dispatch..) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 365.00 767.89 Td ([DONE] Live progress, route distance &..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 745.89 m 555.28 745.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 750.89 Td (Logistics & Freight) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 170.00 750.89 Td ([DONE] View road distance & delivery s..) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 365.00 750.89 Td ([DONE] Freight estimation & proximity ..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 728.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 728.89 m 555.28 728.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 733.89 Td (WhatsApp Chat) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 170.00 733.89 Td ([DONE] One-click direct trade chat wit..) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 365.00 733.89 Td ([DONE] One-click direct trade chat wit..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 711.89 m 555.28 711.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 716.89 Td (Real-Time Alerts) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 170.00 716.89 Td ([DONE] In-app alerts on new bids & deals) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 365.00 716.89 Td ([DONE] In-app alerts on acceptance & d..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 694.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 694.89 m 555.28 694.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 699.89 Td (Digital Ledger) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 170.00 699.89 Td ([DONE] Auto-records crop sale income &..) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 365.00 699.89 Td ([NOT IMPL] Buyer uses purchase analytics) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 677.89 m 555.28 677.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 682.89 Td (Rating & Reviews) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 170.00 682.89 Td ([DONE] Rates buyer, views own reputation) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 365.00 682.89 Td ([DONE] Rates farmer \(1-5 stars + textu..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 660.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 660.89 m 555.28 660.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 665.89 Td (AI Assistant) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 170.00 665.89 Td ([DONE] Crop care, pest alerts, weather..) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 365.00 665.89 Td ([DONE] Procurement advice & price fore..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 643.89 m 555.28 643.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 648.89 Td (Language Support) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 170.00 648.89 Td ([DONE] English, Hindi \(Devanagari\), Ma..) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 365.00 648.89 Td ([DONE] English, Hindi \(Devanagari\), Ma..) Tj ET
+0.930 0.960 0.940 rg
+0.120 0.420 0.220 RG
+0.80 w 40.00 601.89 515.28 24.00 re B
+0.080 0.420 0.200 rg
+1.00 w 40.00 601.89 26.00 24.00 re f
+1.000 1.000 1.000 rg
+BT /F2 11.00 Tf 47.00 608.89 Td (4) Tj ET
+0.080 0.250 0.120 rg
+BT /F2 10.50 Tf 74.00 608.89 Td (COMPLETE END-TO-END PROJECT FLOW) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 8.50 Tf 474.56 608.89 Td (100% Operational) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 9.00 Tf 40.00 584.89 Td (The complete trade and fulfillment lifecycle has been empirically traced across code boundaries:) Tj ET
+0.080 0.320 0.160 rg
+1.00 w 40.00 556.89 515.28 20.00 re f
+1.000 1.000 1.000 rg
+BT /F2 8.50 Tf 45.00 562.89 Td (Step) Tj ET
+BT /F2 8.50 Tf 69.00 562.89 Td (Lifecycle Milestone) Tj ET
+BT /F2 8.50 Tf 199.00 562.89 Td (Status) Tj ET
+BT /F2 8.50 Tf 259.00 562.89 Td (Technical Code Implementation & Trigger) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 539.89 m 555.28 539.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 544.89 Td (1) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 544.89 Td (Create Crop Listing) Tj ET
+0.120 0.450 0.650 rg
+1.00 w 199.00 542.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 545.89 Td (ACTIVE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 544.89 Td (MyCropListings.jsx invokes POST /api/v1/listings with crop d..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 522.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 522.89 m 555.28 522.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 527.89 Td (2) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 527.89 Td (AI Price Recommendation) Tj ET
+0.120 0.450 0.650 rg
+1.00 w 199.00 525.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 528.89 Td (ACTIVE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 527.89 Td (AIPriceRecommendationCard.jsx queries /api/v1/recommendations.) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 505.89 m 555.28 505.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 510.89 Td (3) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 510.89 Td (Marketplace Display) Tj ET
+0.120 0.450 0.650 rg
+1.00 w 199.00 508.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 511.89 Td (ACTIVE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 510.89 Td (Listing stored with status ACTIVE; instantly visible on /mar..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 488.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 488.89 m 555.28 488.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 493.89 Td (4) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 493.89 Td (Buyer Search / View) Tj ET
+0.120 0.450 0.650 rg
+1.00 w 199.00 491.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 494.89 Td (ACTIVE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 493.89 Td (Buyer queries GET /api/v1/listings/ with search and filter c..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 471.89 m 555.28 471.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 476.89 Td (5) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 476.89 Td (Send Purchase Request) Tj ET
+0.120 0.450 0.650 rg
+1.00 w 199.00 474.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 477.89 Td (ACTIVE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 476.89 Td (Buyer submits modal form to POST /api/v1/requests/ with bid ..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 454.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 454.89 m 555.28 454.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 459.89 Td (6) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 459.89 Td (Farmer Accepts Request) Tj ET
+0.120 0.450 0.650 rg
+1.00 w 199.00 457.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 460.89 Td (ACTIVE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 459.89 Td (Farmer clicks Accept in Dashboard -> PUT /api/v1/requests/{i..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 437.89 m 555.28 437.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 442.89 Td (7) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 442.89 Td (Order Confirmed) Tj ET
+0.120 0.450 0.650 rg
+1.00 w 199.00 440.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 443.89 Td (ACTIVE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 442.89 Td (Auto-creates Deal record, initializes 4-stage tracking & tim..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 420.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 420.89 m 555.28 420.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 425.89 Td (8) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 425.89 Td (Dispatched) Tj ET
+0.120 0.450 0.650 rg
+1.00 w 199.00 423.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 426.89 Td (ACTIVE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 425.89 Td (Farmer clicks Mark Dispatched -> PATCH /api/v1/deals/{id}/or..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 403.89 m 555.28 403.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 408.89 Td (9) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 408.89 Td (Out for Delivery) Tj ET
+0.120 0.450 0.650 rg
+1.00 w 199.00 406.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 409.89 Td (ACTIVE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 408.89 Td (Farmer advances status to Out for Delivery; buyer receives p..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 386.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 386.89 m 555.28 386.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 391.89 Td (10) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 391.89 Td (Delivered) Tj ET
+0.120 0.450 0.650 rg
+1.00 w 199.00 389.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 392.89 Td (ACTIVE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 391.89 Td (Farmer clicks Mark Delivered; order status updated to Delive..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 369.89 m 555.28 369.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 374.89 Td (11) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 374.89 Td (Ledger Auto-Updated) Tj ET
+0.120 0.450 0.650 rg
+1.00 w 199.00 372.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 375.89 Td (ACTIVE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 374.89 Td (deal_service.py auto-posts Ledger Income entry with exact ne..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 352.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 352.89 m 555.28 352.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 357.89 Td (12) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 357.89 Td (Buyer Rating / Review) Tj ET
+0.120 0.450 0.650 rg
+1.00 w 199.00 355.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 204.00 358.89 Td (ACTIVE) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 259.00 357.89 Td (Buyer submits 1-5 star review via POST /api/v1/ratings.) Tj ET
+0.930 0.960 0.940 rg
+0.120 0.420 0.220 RG
+0.80 w 40.00 310.89 515.28 24.00 re B
+0.080 0.420 0.200 rg
+1.00 w 40.00 310.89 26.00 24.00 re f
+1.000 1.000 1.000 rg
+BT /F2 11.00 Tf 47.00 317.89 Td (5) Tj ET
+0.080 0.250 0.120 rg
+BT /F2 10.50 Tf 74.00 317.89 Td (AI / MACHINE LEARNING TECHNOLOGIES) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 8.50 Tf 452.46 317.89 Td (9 Implemented Systems) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 9.00 Tf 40.00 293.89 Td (The platform incorporates 9 distinct AI/ML technologies spanning predictive models, LLMs, and RAG:) Tj ET
+0.080 0.320 0.160 rg
+1.00 w 40.00 265.89 515.28 20.00 re f
+1.000 1.000 1.000 rg
+BT /F2 8.50 Tf 45.00 271.89 Td (Technology) Tj ET
+BT /F2 8.50 Tf 150.00 271.89 Td (Algorithmic Purpose) Tj ET
+BT /F2 8.50 Tf 325.00 271.89 Td (Codebase Location) Tj ET
+BT /F2 8.50 Tf 500.00 271.89 Td (Status) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 248.89 m 555.28 248.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 253.89 Td (Random Forest Regre..) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 150.00 253.89 Td (Sub-millisecond mandi price predic..) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 325.00 253.89 Td (backend/app/ai/models/price_predic..) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 500.00 251.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 505.00 254.89 Td (DONE) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 231.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 231.89 m 555.28 231.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 236.89 Td (Google Gemini 2.5 F..) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 150.00 236.89 Td (Conversational LLM reasoning, mult..) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 325.00 236.89 Td (backend/app/ai/agents/farm_agent.py) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 500.00 234.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 505.00 237.89 Td (DONE) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 214.89 m 555.28 214.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 219.89 Td (RAG Pipeline) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 150.00 219.89 Td (Retrieval-Augmented Generation gro..) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 325.00 219.89 Td (backend/app/ai/rag/retriever.py) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 500.00 217.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 505.00 220.89 Td (DONE) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 197.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 197.89 m 555.28 197.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 202.89 Td (FAISS Vector Store) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 150.00 202.89 Td (Facebook AI Similarity Search Inde..) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 325.00 202.89 Td (backend/app/ai/vector_store/faiss_..) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 500.00 200.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 505.00 203.89 Td (DONE) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 180.89 m 555.28 180.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 185.89 Td (Sentence Transformers) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 150.00 185.89 Td (all-MiniLM-L6-v2 384-dimensional d..) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 325.00 185.89 Td (backend/app/ai/embeddings/embedder..) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 500.00 183.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 505.00 186.89 Td (DONE) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 163.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 163.89 m 555.28 163.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 168.89 Td (EMA Momentum Foreca..) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 150.00 168.89 Td (EMA-7, EMA-14, EMA-30 momentum cro..) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 325.00 168.89 Td (backend/app/ai/forecasting/ema.py) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 500.00 166.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 505.00 169.89 Td (DONE) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 146.89 m 555.28 146.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 151.89 Td (Smart Price Recomme..) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 150.00 151.89 Td (Multi-factor hybrid blending Mandi..) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 325.00 151.89 Td (backend/app/services/recommend_pri..) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 500.00 149.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 505.00 152.89 Td (DONE) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 129.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 129.89 m 555.28 129.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 134.89 Td (AI Agronomic Assist..) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 150.00 134.89 Td (Full conversational chatbot with v..) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 325.00 134.89 Td (frontend/src/pages/AIAssistant.jsx) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 500.00 132.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 505.00 135.89 Td (DONE) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 112.89 m 555.28 112.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 117.89 Td (Agro-Risk Scoring E..) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 150.00 117.89 Td (Agronomic weather risk evaluator c..) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 325.00 117.89 Td (backend/app/services/weather_servi..) Tj ET
+0.100 0.550 0.250 rg
+1.00 w 500.00 115.89 46.00 11.00 re f
+1.000 1.000 1.000 rg
+BT /F2 6.50 Tf 505.00 118.89 Td (DONE) Tj ET
+0.930 0.960 0.940 rg
+0.120 0.420 0.220 RG
+0.80 w 40.00 70.89 515.28 24.00 re B
+0.080 0.420 0.200 rg
+1.00 w 40.00 70.89 26.00 24.00 re f
+1.000 1.000 1.000 rg
+BT /F2 11.00 Tf 47.00 77.89 Td (6) Tj ET
+0.080 0.250 0.120 rg
+BT /F2 10.50 Tf 74.00 77.89 Td (MULTILINGUAL LOCALIZATION SUPPORT) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 8.50 Tf 465.72 77.89 Td (3 Languages Active) Tj ET
+0.850 0.880 0.860 RG
+0.50 w 40.00 34.00 m 555.28 34.00 l S
+0.450 0.500 0.480 rg
+BT /F1 7.5 Tf 40.00 22.00 Td (CropPoint / Smart Agri AI -- Pair Programming Audit & Verification Report) Tj ET
+BT /F2 8.0 Tf 500.28 22.00 Td (Page 3 of 5) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 10 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+12 0 obj
+<< /Length 11642 >>
+stream
+0.400 0.450 0.500 rg
+BT /F1 8.00 Tf 40.00 813.89 Td (SMART AGRI AI / CROPPOINT -- PROJECT PROGRESS REPORT) Tj ET
+BT /F2 8.00 Tf 467.92 813.89 Td (ACADEMIC MENTOR AUDIT) Tj ET
+0.850 0.880 0.860 RG
+0.50 w 40.00 809.89 m 555.28 809.89 l S
+0.150 0.150 0.180 rg
+BT /F1 9.00 Tf 40.00 787.89 Td (The application provides full native language support across all user-facing interfaces:) Tj ET
+0.950 0.980 0.950 rg
+0.100 0.450 0.220 RG
+1.00 w 40.00 703.89 515.28 76.00 re B
+0.100 0.450 0.220 rg
+1.00 w 40.00 703.89 4.00 76.00 re f
+0.100 0.450 0.220 rg
+BT /F2 9.50 Tf 52.00 763.89 Td (LANGUAGE ARCHITECTURE OVERVIEW) Tj ET
+0.120 0.140 0.160 rg
+BT /F1 8.50 Tf 52.00 749.89 Td (- Supported Languages: English \(en\), Hindi \(hi -- Devanagari\), and Marathi \(mr -- Devanagari\).) Tj ET
+BT /F1 8.50 Tf 52.00 736.89 Td (- Frontend Coverage: Comprehensive JSON translation dictionaries \(en.json, hi.json, mr.json\) covering all navigation, dashboard cards, modal forms, and toast notifications.) Tj ET
+BT /F1 8.50 Tf 52.00 723.89 Td (- Name Transliteration: transliterate.js phonetically transliterates user names and crops into Devanagari script.) Tj ET
+BT /F1 8.50 Tf 52.00 710.89 Td (- Multilingual AI Assistant: templates.py instructs Google Gemini to respond strictly in native Hindi or Marathi Devanagari script based on user selection.) Tj ET
+0.930 0.960 0.940 rg
+0.120 0.420 0.220 RG
+0.80 w 40.00 659.89 515.28 24.00 re B
+0.080 0.420 0.200 rg
+1.00 w 40.00 659.89 26.00 24.00 re f
+1.000 1.000 1.000 rg
+BT /F2 11.00 Tf 47.00 666.89 Td (7) Tj ET
+0.080 0.250 0.120 rg
+BT /F2 10.50 Tf 74.00 666.89 Td (OTHER MAJOR ARCHITECTURAL MODULES) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 8.50 Tf 443.62 666.89 Td (Platform Infrastructure) Tj ET
+0.080 0.320 0.160 rg
+1.00 w 40.00 631.89 515.28 20.00 re f
+1.000 1.000 1.000 rg
+BT /F2 8.50 Tf 45.00 637.89 Td (Module Name) Tj ET
+BT /F2 8.50 Tf 180.00 637.89 Td (Primary Purpose & Operational Architecture) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 614.89 m 555.28 614.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 619.89 Td (Admin Console \(/admin\)) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 180.00 619.89 Td (Platform metrics monitoring total farmers, buyers, active listings, gross tra..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 597.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 597.89 m 555.28 597.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 602.89 Td (Market Intelligence \(/mark..) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 180.00 602.89 Td (Agmarknet APMC live modal prices, historical trends \(7d/30d/YoY\), volatility ..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 580.89 m 555.28 580.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 585.89 Td (Weather Telemetry \(/weather\)) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 180.00 585.89 Td (OpenWeatherMap API integration providing 5-day forecasts, temperature, precip..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 563.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 563.89 m 555.28 563.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 568.89 Td (Analytics Engine \(/analyti..) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 180.00 568.89 Td (Data visualizations \(Recharts\) covering monthly profit/loss, revenue breakdow..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 546.89 m 555.28 546.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 551.89 Td (Digital Ledger \(/ledger\)) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 180.00 551.89 Td (Double-entry bookkeeping system capturing operational farm expenses and auto-..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 529.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 529.89 m 555.28 529.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 534.89 Td (Notification Engine) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 180.00 534.89 Td (Asynchronous real-time alerts for purchase requests, deal confirmations, disp..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 512.89 m 555.28 512.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 517.89 Td (Security & RBAC) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 180.00 517.89 Td (HS256 JWT bearer token authentication, bcrypt password hashing, 30-day sessio..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 495.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 495.89 m 555.28 495.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 500.89 Td (Database Architecture) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 180.00 500.89 Td (SQLite database \(smartagri.db\) via SQLAlchemy ORM with 11 relational models, ..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 478.89 m 555.28 478.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 483.89 Td (FastAPI REST API) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 180.00 483.89 Td (High-performance async API with OpenAPI/Swagger docs \(/docs\), Pydantic valida..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 461.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 461.89 m 555.28 461.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 466.89 Td (Agricultural Marketplace) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 180.00 466.89 Td (B2B trading exchange connecting farmers to buyers with quality grading, price..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 444.89 m 555.28 444.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 449.89 Td (Cultivation Workflow) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 180.00 449.89 Td (7-stage cultivation calendar generator \(Land Prep, Sowing, Irrigation, Fertil..) Tj ET
+0.930 0.960 0.940 rg
+0.120 0.420 0.220 RG
+0.80 w 40.00 402.89 515.28 24.00 re B
+0.080 0.420 0.200 rg
+1.00 w 40.00 402.89 26.00 24.00 re f
+1.000 1.000 1.000 rg
+BT /F2 11.00 Tf 47.00 409.89 Td (8) Tj ET
+0.080 0.250 0.120 rg
+BT /F2 10.50 Tf 74.00 409.89 Td (FEATURE COUNT & IMPLEMENTATION STATISTICS) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 8.50 Tf 478.98 409.89 Td (Precise Metrics) Tj ET
+0.080 0.320 0.160 rg
+1.00 w 40.00 374.89 515.28 20.00 re f
+1.000 1.000 1.000 rg
+BT /F2 8.50 Tf 45.00 380.89 Td (Category) Tj ET
+BT /F2 8.50 Tf 260.00 380.89 Td (Feature Count) Tj ET
+BT /F2 8.50 Tf 360.00 380.89 Td (Implementation Status) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 357.89 m 555.28 357.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 362.89 Td (Farmer Module Features) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 260.00 362.89 Td (25 Features) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 360.00 362.89 Td ([DONE] Fully Implemented) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 340.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 340.89 m 555.28 340.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 345.89 Td (Buyer Module Features) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 260.00 345.89 Td (25 Features) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 360.00 345.89 Td ([DONE] Fully Implemented) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 323.89 m 555.28 323.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 328.89 Td (Shared Platform Capabilities) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 260.00 328.89 Td (6 Features) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 360.00 328.89 Td ([DONE] Fully Implemented) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 306.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 306.89 m 555.28 306.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 311.89 Td (AI / Machine Learning Technologies) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 260.00 311.89 Td (9 Systems) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 360.00 311.89 Td ([DONE] Fully Implemented) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 289.89 m 555.28 289.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 294.89 Td (Marketplace Trading Features) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 260.00 294.89 Td (6 Features) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 360.00 294.89 Td ([DONE] Fully Implemented) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 272.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 272.89 m 555.28 272.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 277.89 Td (Fulfillment Workflow Milestones) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 260.00 277.89 Td (2 Workflows) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 360.00 277.89 Td ([DONE] Fully Implemented) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 255.89 m 555.28 255.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 260.89 Td (Language Support) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 260.00 260.89 Td (3 Languages) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 360.00 260.89 Td ([DONE] Fully Implemented \(EN, HI, MR\)) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 238.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 238.89 m 555.28 238.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 243.89 Td (Major System Modules) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 260.00 243.89 Td (11 Modules) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 360.00 243.89 Td ([DONE] Fully Implemented) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 221.89 m 555.28 221.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 226.89 Td (TOTAL IMPLEMENTED FEATURES) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 260.00 226.89 Td (58 Features) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 360.00 226.89 Td ([DONE] 100% Core Verification) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 204.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 204.89 m 555.28 204.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 209.89 Td (Partially Implemented \(in codebase, unlink..) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 260.00 209.89 Td (2 Features) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 360.00 209.89 Td ([PARTIAL] Plot Mgmt, Farm Analytics) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 187.89 m 555.28 187.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 192.89 Td (Missing Important Core Features) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 260.00 192.89 Td (0 Features) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 360.00 192.89 Td ([DONE] Zero Blockers) Tj ET
+0.930 0.960 0.940 rg
+0.120 0.420 0.220 RG
+0.80 w 40.00 145.89 515.28 24.00 re B
+0.080 0.420 0.200 rg
+1.00 w 40.00 145.89 26.00 24.00 re f
+1.000 1.000 1.000 rg
+BT /F2 11.00 Tf 47.00 152.89 Td (9) Tj ET
+0.080 0.250 0.120 rg
+BT /F2 10.50 Tf 74.00 152.89 Td (RECOMMENDED 5-10 MINUTE MENTOR DEMO ORDER) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 8.50 Tf 448.04 152.89 Td (Live Presentation Flow) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 9.00 Tf 40.00 128.89 Td (Follow this sequence during your project demonstration for maximum clarity and impact:) Tj ET
+0.080 0.320 0.160 rg
+1.00 w 40.00 100.89 515.28 20.00 re f
+1.000 1.000 1.000 rg
+BT /F2 8.50 Tf 45.00 106.89 Td (Step) Tj ET
+BT /F2 8.50 Tf 69.00 106.89 Td (Action & Screen) Tj ET
+BT /F2 8.50 Tf 199.00 106.89 Td (Duration) Tj ET
+BT /F2 8.50 Tf 254.00 106.89 Td (Key Demonstration Highlights) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 83.89 m 555.28 83.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 88.89 Td (1) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 88.89 Td (Farmer Login & Dashboard) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 199.00 88.89 Td (1.0 min) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 254.00 88.89 Td (Log in as ansarbhati92@gmail.com. Show revenue \(Rs. 7,76,000\)..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 66.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 66.89 m 555.28 66.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 71.89 Td (2) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 71.89 Td (AI Price Rec & Create Lis..) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 199.00 71.89 Td (1.5 min) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 254.00 71.89 Td (Open My Crop Listings -> Add Listing. Show live Mandi benchma..) Tj ET
+0.850 0.880 0.860 RG
+0.50 w 40.00 34.00 m 555.28 34.00 l S
+0.450 0.500 0.480 rg
+BT /F1 7.5 Tf 40.00 22.00 Td (CropPoint / Smart Agri AI -- Pair Programming Audit & Verification Report) Tj ET
+BT /F2 8.0 Tf 500.28 22.00 Td (Page 4 of 5) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 12 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+14 0 obj
+<< /Length 5894 >>
+stream
+0.400 0.450 0.500 rg
+BT /F1 8.00 Tf 40.00 813.89 Td (SMART AGRI AI / CROPPOINT -- PROJECT PROGRESS REPORT) Tj ET
+BT /F2 8.00 Tf 467.92 813.89 Td (ACADEMIC MENTOR AUDIT) Tj ET
+0.850 0.880 0.860 RG
+0.50 w 40.00 809.89 m 555.28 809.89 l S
+0.880 0.900 0.880 RG
+0.40 w 40.00 779.89 m 555.28 779.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 784.89 Td (3) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 784.89 Td (Buyer Login & Marketplace) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 199.00 784.89 Td (1.5 min) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 254.00 784.89 Td (Open /marketplace as Buyer. Show crop search, quality grade b..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 762.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 762.89 m 555.28 762.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 767.89 Td (4) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 767.89 Td (Send Purchase Request) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 199.00 767.89 Td (1.0 min) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 254.00 767.89 Td (Click Send Purchase Request. Demo AI Negotiator counter-offer..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 745.89 m 555.28 745.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 750.89 Td (5) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 750.89 Td (Farmer Accepts Request) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 199.00 750.89 Td (1.0 min) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 254.00 750.89 Td (Farmer receives incoming request -> clicks Accept. Deal confi..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 728.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 728.89 m 555.28 728.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 733.89 Td (6) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 733.89 Td (Advance Order Delivery) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 199.00 733.89 Td (1.5 min) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 254.00 733.89 Td (Farmer clicks Mark Dispatched \(shows ETA & distance\), Out for..) Tj ET
+0.880 0.900 0.880 RG
+0.40 w 40.00 711.89 m 555.28 711.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 716.89 Td (7) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 716.89 Td (Auto Ledger & Invoice) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 199.00 716.89 Td (1.0 min) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 254.00 716.89 Td (Open Digital Ledger. Show delivered crop sale automatically r..) Tj ET
+0.960 0.980 0.960 rg
+1.00 w 40.00 694.89 515.28 17.00 re f
+0.880 0.900 0.880 RG
+0.40 w 40.00 694.89 m 555.28 694.89 l S
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 45.00 699.89 Td (8) Tj ET
+0.150 0.150 0.180 rg
+BT /F2 8.00 Tf 69.00 699.89 Td (Rating & Multilingual AI) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 199.00 699.89 Td (1.5 min) Tj ET
+0.150 0.150 0.180 rg
+BT /F1 8.00 Tf 254.00 699.89 Td (Buyer submits 5-star rating. Open AI Assistant, switch to Hin..) Tj ET
+0.930 0.960 0.940 rg
+0.120 0.420 0.220 RG
+0.80 w 40.00 652.89 515.28 24.00 re B
+0.080 0.420 0.200 rg
+1.00 w 40.00 652.89 26.00 24.00 re f
+1.000 1.000 1.000 rg
+BT /F2 11.00 Tf 47.00 659.89 Td (10) Tj ET
+0.080 0.250 0.120 rg
+BT /F2 10.50 Tf 74.00 659.89 Td (EXECUTIVE MENTOR SUMMARY) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 8.50 Tf 456.88 659.89 Td (Ready for Submission) Tj ET
+0.950 0.980 0.960 rg
+0.080 0.350 0.180 RG
+1.00 w 40.00 373.89 515.28 271.00 re B
+0.080 0.350 0.180 rg
+1.00 w 40.00 373.89 4.00 271.00 re f
+0.080 0.350 0.180 rg
+BT /F2 9.50 Tf 52.00 628.89 Td (EXECUTIVE PROJECT SUMMARY FOR COLLEGE MENTOR) Tj ET
+0.120 0.140 0.160 rg
+BT /F1 8.50 Tf 52.00 614.89 Td (PROJECT PROGRESS OVERVIEW:) Tj ET
+BT /F1 8.50 Tf 52.00 601.89 Td (- Farmer Module: 25 fully implemented features | Buyer Module: 25 fully implemented features) Tj ET
+BT /F1 8.50 Tf 52.00 588.89 Td (- AI/ML Technologies: 9 operational models & pipelines \(Random Forest, Gemini, RAG, FAISS, Sentence Transformers, EMA\)) Tj ET
+BT /F1 8.50 Tf 52.00 575.89 Td (- Order Fulfillment: 4-stage delivery tracking \(Confirmed -> Dispatched -> Out for Delivery -> Delivered\)) Tj ET
+BT /F1 8.50 Tf 52.00 562.89 Td (- Localization: 3 languages \(English, Hindi, Marathi\) with native Devanagari AI prompting & transliteration) Tj ET
+BT /F1 8.50 Tf 52.00 549.89 Td (- Overall Implementation: ~95% \(The complete core B2B agricultural trade & AI advisory platform is 100% complete\).) Tj ET
+BT /F1 8.50 Tf 52.00 536.89 Td () Tj ET
+BT /F1 8.50 Tf 52.00 523.89 Td (CORE VALUE PROPOSITION:) Tj ET
+BT /F1 8.50 Tf 52.00 510.89 Td (CropPoint / Smart Agri AI eliminates agricultural intermediaries by connecting verified farmers directly with bulk) Tj ET
+BT /F1 8.50 Tf 52.00 497.89 Td (buyers. Transactions are protected by Mandi-anchored AI price safeguards, real-time agro-risk weather telemetry,) Tj ET
+BT /F1 8.50 Tf 52.00 484.89 Td (Haversine road distance calculations, automated digital ledger bookkeeping, and verified peer ratings.) Tj ET
+BT /F1 8.50 Tf 52.00 471.89 Td () Tj ET
+BT /F1 8.50 Tf 52.00 458.89 Td (VERIFIED WORKING END-TO-END WORKFLOW:) Tj ET
+BT /F1 8.50 Tf 52.00 445.89 Td (Farmer Listing -> AI Price Recommendation -> Marketplace Display -> Buyer Search -> Purchase Request) Tj ET
+BT /F1 8.50 Tf 52.00 432.89 Td (-> Farmer Acceptance -> Order Confirmed -> Dispatched -> Out for Delivery -> Delivered -> Auto Ledger Payout -> Rating.) Tj ET
+BT /F1 8.50 Tf 52.00 419.89 Td () Tj ET
+BT /F1 8.50 Tf 52.00 406.89 Td (REMAINING WORK \(FUTURE ENHANCEMENTS\):) Tj ET
+BT /F1 8.50 Tf 52.00 393.89 Td (- Payment Gateway: Integration of automated escrow payments \(Razorpay/UPI webhook\) for automated fund disbursement.) Tj ET
+BT /F1 8.50 Tf 52.00 380.89 Td (- IoT Soil Telemetry: Hardware sensor telemetry for automated plot soil moisture and irrigation scheduling.) Tj ET
+0.850 0.880 0.860 RG
+0.50 w 40.00 34.00 m 555.28 34.00 l S
+0.450 0.500 0.480 rg
+BT /F1 7.5 Tf 40.00 22.00 Td (CropPoint / Smart Agri AI -- Pair Programming Audit & Verification Report) Tj ET
+BT /F2 8.0 Tf 500.28 22.00 Td (Page 5 of 5) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 14 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+xref
+0 16
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000148 00000 n 
+0000000245 00000 n 
+0000000347 00000 n 
+0000000452 00000 n 
+0000015321 00000 n 
+0000015473 00000 n 
+0000033322 00000 n 
+0000033474 00000 n 
+0000049528 00000 n 
+0000049682 00000 n 
+0000061377 00000 n 
+0000061531 00000 n 
+0000067477 00000 n 
+trailer
+<< /Size 16 /Root 1 0 R >>
+startxref
+67631
+%%EOF

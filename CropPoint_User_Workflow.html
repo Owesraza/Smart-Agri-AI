@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CropPoint - System & User Interaction Matrix</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+    body { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; }
+    .glass { background: rgba(15, 23, 42, 0.75); backdrop-filter: blur(16px); }
+    .step-card { transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+    .step-card:hover { transform: translateY(-3px); }
+  </style>
+</head>
+<body class="bg-[#070D18] text-slate-100 min-h-screen selection:bg-emerald-500 selection:text-white pb-24">
+
+  <!-- Header -->
+  <header class="border-b border-slate-800/80 bg-slate-950/80 backdrop-blur sticky top-0 z-50 px-6 py-4 flex items-center justify-between">
+    <div class="flex items-center gap-3">
+      <div class="h-10 w-10 rounded-xl bg-gradient-to-tr from-emerald-500 to-teal-400 flex items-center justify-center text-slate-950 font-black text-xl shadow-lg shadow-emerald-500/20">
+        🌱
+      </div>
+      <div>
+        <div class="flex items-center gap-2">
+          <h1 class="text-base md:text-lg font-bold text-white tracking-tight">CropPoint</h1>
+          <span class="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">Review 3 Guide Edition</span>
+        </div>
+        <p class="text-xs text-slate-400">Executive 3-Tier Interaction Matrix: Farmer &bull; AI Brain &bull; Buyer</p>
+      </div>
+    </div>
+    <div class="flex items-center gap-3">
+      <a href="CropPoint_System_Workflow_Matrix.png" download="CropPoint_System_Workflow_Matrix.png" class="px-4 py-2 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white rounded-xl text-xs md:text-sm font-semibold flex items-center gap-2 transition shadow-lg shadow-emerald-900/30">
+        <i class="fa-solid fa-cloud-arrow-down"></i> Download 300 DPI Poster
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main class="max-w-7xl mx-auto px-4 md:px-6 pt-8 space-y-10">
+    <div class="text-center space-y-3">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-800/80 border border-slate-700 text-emerald-400 text-xs font-semibold">
+        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+        Intuitive System Architecture for Examiners & Guides
+      </div>
+      <h2 class="text-3xl md:text-5xl font-extrabold tracking-tight bg-gradient-to-r from-white via-slate-200 to-slate-400 bg-clip-text text-transparent">
+        How CropPoint Works: The 5-Stage Matrix
+      </h2>
+      <p class="text-xs md:text-sm text-slate-400 max-w-3xl mx-auto">
+        Designed for instant clarity. In every stage, see exactly what the <span class="text-emerald-400 font-semibold">Farmer</span> does, how the <span class="text-amber-400 font-semibold">AI System</span> processes it, and what the <span class="text-blue-400 font-semibold">Buyer</span> sees.
+      </p>
+    </div>
+
+    <!-- Quick Preview Banner of the 300 DPI Graphic -->
+    <div class="rounded-2xl border border-slate-800 bg-slate-900/50 p-3 overflow-hidden shadow-2xl">
+      <div class="flex items-center justify-between px-3 py-2 border-b border-slate-800 text-xs text-slate-400">
+        <span class="flex items-center gap-2"><i class="fa-solid fa-image text-emerald-400"></i> High-Resolution Master Matrix (300 DPI)</span>
+        <a href="CropPoint_System_Workflow_Matrix.png" target="_blank" class="text-emerald-400 hover:underline flex items-center gap-1 font-medium">Open Full Screen <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+      <a href="CropPoint_System_Workflow_Matrix.png" target="_blank">
+        <img src="CropPoint_System_Workflow_Matrix.png" alt="CropPoint System Workflow Matrix" class="w-full rounded-xl mt-2 hover:opacity-95 transition cursor-pointer">
+      </a>
+    </div>
+
+    <!-- 30-Second Examiner Explanation Card -->
+    <div class="rounded-2xl border border-amber-500/30 bg-gradient-to-r from-amber-950/20 via-slate-900 to-slate-900 p-6 space-y-4">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-amber-500/20 text-amber-400 flex items-center justify-center text-lg font-bold">
+          <i class="fa-solid fa-lightbulb"></i>
+        </div>
+        <div>
+          <h3 class="text-base font-bold text-white">How to Explain This Diagram to Your Guide in 30 Seconds</h3>
+          <p class="text-xs text-slate-400">Use this exact pitch to explain the complete interaction flow:</p>
+        </div>
+      </div>
+      <div class="bg-slate-950/60 rounded-xl p-4 border border-slate-800 text-xs md:text-sm text-slate-300 leading-relaxed italic space-y-2">
+        <p>
+          "Guide, our architecture is organized into <strong>3 functional tiers</strong> across <strong>5 chronological stages</strong>:
+        </p>
+        <p>
+          &bull; <strong>Top Tier (Green):</strong> Represents the Farmer's direct touchpoints — from entering harvest volume to checking AI forecasts, listing the batch, chatting on WhatsApp, and receiving net profit payout.<br>
+          &bull; <strong>Middle Tier (Dark Slate):</strong> Represents CropPoint's Autonomous AI Brain — which ingests AGMARKNET/weather data, runs our Random Forest model (R²=0.9687), provides automated matchmaking, generates WhatsApp links, and manages double-entry accounting.<br>
+          &bull; <strong>Bottom Tier (Blue):</strong> Represents the Buyer's journey — defining procurement quotas, discovering fair-priced produce, bidding, locking deals, and downloading GST tax invoices.<br>
+          &bull; <strong>Closed Loop:</strong> Realized mandi sale prices feed back into our model retraining pipeline to eliminate seasonal drift."
+        </p>
+      </div>
+    </div>
+
+    <!-- 5-Stage Interactive Matrix Breakdown -->
+    <div class="space-y-6">
+      <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+        <h3 class="text-xl font-bold text-white flex items-center gap-2">
+          <i class="fa-solid fa-layer-group text-teal-400"></i> The 5-Stage Interaction Walkthrough
+        </h3>
+        <span class="text-xs text-slate-400 font-mono">Stage-by-Stage Breakdown</span>
+      </div>
+
+      <!-- STAGE 1 CARD -->
+      <div class="bg-slate-900/60 border border-slate-800 rounded-2xl p-6 space-y-4">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <span class="px-3 py-1 rounded-full bg-slate-800 text-sky-400 text-xs font-bold border border-slate-700">STAGE 1</span>
+            <h4 class="text-lg font-bold text-white">Onboarding, Ingestion & Sourcing Criteria</h4>
+          </div>
+          <span class="text-xs text-slate-400">Initiation Phase</span>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
+          <div class="p-4 rounded-xl bg-emerald-950/20 border border-emerald-500/20 space-y-2">
+            <div class="font-bold text-emerald-400 flex items-center gap-2"><i class="fa-solid fa-tractor"></i> 1. FARMER ACTION</div>
+            <p class="text-slate-300">Selects commodity (Wheat, Tomato, Onion), inputs expected harvest volume in quintals, and sets farm-gate district location.</p>
+            <div class="text-[10px] text-emerald-300 font-mono bg-emerald-500/10 px-2 py-1 rounded">Crop Profile &bull; Yield Estimate</div>
+          </div>
+          <div class="p-4 rounded-xl bg-amber-950/20 border border-amber-500/20 space-y-2">
+            <div class="font-bold text-amber-400 flex items-center gap-2"><i class="fa-solid fa-server"></i> 2. CROPPOINT AI SYSTEM</div>
+            <p class="text-slate-300">Ingests live APMC mandi prices via AGMARKNET API, fetches 5-day weather data, and normalizes feature vectors.</p>
+            <div class="text-[10px] text-amber-300 font-mono bg-amber-500/10 px-2 py-1 rounded">AGMARKNET &bull; OpenWeatherMap</div>
+          </div>
+          <div class="p-4 rounded-xl bg-blue-950/20 border border-blue-500/20 space-y-2">
+            <div class="font-bold text-blue-400 flex items-center gap-2"><i class="fa-solid fa-building-wheat"></i> 3. BUYER ACTION</div>
+            <p class="text-slate-300">Registers KYC as Wholesaler/Processor, configures weekly procurement quotas, and defines maximum sourcing radius.</p>
+            <div class="text-[10px] text-blue-300 font-mono bg-blue-500/10 px-2 py-1 rounded">Buyer KYC &bull; Volume Quota</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- STAGE 2 CARD -->
+      <div class="bg-slate-900/60 border border-slate-800 rounded-2xl p-6 space-y-4">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <span class="px-3 py-1 rounded-full bg-slate-800 text-sky-400 text-xs font-bold border border-slate-700">STAGE 2</span>
+            <h4 class="text-lg font-bold text-white">AI Predictive Intelligence & Marketplace Discovery</h4>
+          </div>
+          <span class="text-xs text-slate-400">Intelligence Phase</span>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
+          <div class="p-4 rounded-xl bg-emerald-950/20 border border-emerald-500/20 space-y-2">
+            <div class="font-bold text-emerald-400 flex items-center gap-2"><i class="fa-solid fa-chart-line"></i> 1. FARMER ACTION</div>
+            <p class="text-slate-300">Views 7 & 14-day price forecasts, compares local mandi spreads, and receives clear verdict: <strong>SELL NOW</strong> or <strong>WAIT 4 DAYS</strong>.</p>
+            <div class="text-[10px] text-emerald-300 font-mono bg-emerald-500/10 px-2 py-1 rounded">RF Forecast &bull; SELL/WAIT Verdict</div>
+          </div>
+          <div class="p-4 rounded-xl bg-amber-950/20 border border-amber-500/20 space-y-2">
+            <div class="font-bold text-amber-400 flex items-center gap-2"><i class="fa-solid fa-brain"></i> 2. CROPPOINT AI SYSTEM</div>
+            <p class="text-slate-300">Executes Random Forest regressor (R²=0.9687), queries FAISS vector store, and balances holding cost vs price gain.</p>
+            <div class="text-[10px] text-amber-300 font-mono bg-amber-500/10 px-2 py-1 rounded">Random Forest R²=0.9687 &bull; FAISS RAG</div>
+          </div>
+          <div class="p-4 rounded-xl bg-blue-950/20 border border-blue-500/20 space-y-2">
+            <div class="font-bold text-blue-400 flex items-center gap-2"><i class="fa-solid fa-magnifying-glass"></i> 3. BUYER ACTION</div>
+            <p class="text-slate-300">Browses verified listings filtered by district, compares asking prices to the AI fair benchmark, and checks harvest readiness.</p>
+            <div class="text-[10px] text-blue-300 font-mono bg-blue-500/10 px-2 py-1 rounded">Geo Search &bull; AI Fair Price Benchmark</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- STAGE 3 CARD -->
+      <div class="bg-slate-900/60 border border-slate-800 rounded-2xl p-6 space-y-4">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <span class="px-3 py-1 rounded-full bg-slate-800 text-sky-400 text-xs font-bold border border-slate-700">STAGE 3</span>
+            <h4 class="text-lg font-bold text-white">Listing Publication & Purchase Order Bidding</h4>
+          </div>
+          <span class="text-xs text-slate-400">Market Matching Phase</span>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
+          <div class="p-4 rounded-xl bg-emerald-950/20 border border-emerald-500/20 space-y-2">
+            <div class="font-bold text-emerald-400 flex items-center gap-2"><i class="fa-solid fa-tag"></i> 1. FARMER ACTION</div>
+            <p class="text-slate-300">Inputs batch quantity, quality grade and photos. Sets reserve price guided by AI and publishes listing to regional buyers.</p>
+            <div class="text-[10px] text-emerald-300 font-mono bg-emerald-500/10 px-2 py-1 rounded">Verified Listing &bull; AI Reserve Price</div>
+          </div>
+          <div class="p-4 rounded-xl bg-amber-950/20 border border-amber-500/20 space-y-2">
+            <div class="font-bold text-amber-400 flex items-center gap-2"><i class="fa-solid fa-bolt"></i> 2. CROPPOINT AI SYSTEM</div>
+            <p class="text-slate-300">Matches farmer batches with buyer procurement quotas, ranks listings by distance, and dispatches real-time push alerts.</p>
+            <div class="text-[10px] text-amber-300 font-mono bg-amber-500/10 px-2 py-1 rounded">Matching Engine &bull; FastAPI Push Alert</div>
+          </div>
+          <div class="p-4 rounded-xl bg-blue-950/20 border border-blue-500/20 space-y-2">
+            <div class="font-bold text-blue-400 flex items-center gap-2"><i class="fa-solid fa-hand-holding-dollar"></i> 3. BUYER ACTION</div>
+            <p class="text-slate-300">Selects required volume (e.g. 50 quintals), submits formal unit offer price (Rs/quintal), and specifies preferred delivery date.</p>
+            <div class="text-[10px] text-blue-300 font-mono bg-blue-500/10 px-2 py-1 rounded">Order Request &bull; Volume Bid</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- STAGE 4 CARD -->
+      <div class="bg-slate-900/60 border border-slate-800 rounded-2xl p-6 space-y-4">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <span class="px-3 py-1 rounded-full bg-slate-800 text-sky-400 text-xs font-bold border border-slate-700">STAGE 4</span>
+            <h4 class="text-lg font-bold text-white">Direct WhatsApp Negotiation & Contract Locking</h4>
+          </div>
+          <span class="text-xs text-slate-400">Deal Finalization Phase</span>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
+          <div class="p-4 rounded-xl bg-emerald-950/20 border border-emerald-500/20 space-y-2">
+            <div class="font-bold text-emerald-400 flex items-center gap-2"><i class="fa-brands fa-whatsapp"></i> 1. FARMER ACTION</div>
+            <p class="text-slate-300">Receives purchase alert, opens 1-click WhatsApp channel, clarifies loading terms, accepts optimal offer, and locks deal.</p>
+            <div class="text-[10px] text-emerald-300 font-mono bg-emerald-500/10 px-2 py-1 rounded">WhatsApp Direct &bull; Lock Deal</div>
+          </div>
+          <div class="p-4 rounded-xl bg-amber-950/20 border border-amber-500/20 space-y-2">
+            <div class="font-bold text-amber-400 flex items-center gap-2"><i class="fa-solid fa-lock"></i> 2. CROPPOINT AI SYSTEM</div>
+            <p class="text-slate-300">Generates pre-filled WhatsApp direct links, formalizes digital terms, and commits the transaction to escrow state.</p>
+            <div class="text-[10px] text-amber-300 font-mono bg-amber-500/10 px-2 py-1 rounded">WhatsApp Gateway &bull; Smart Escrow</div>
+          </div>
+          <div class="p-4 rounded-xl bg-blue-950/20 border border-blue-500/20 space-y-2">
+            <div class="font-bold text-blue-400 flex items-center gap-2"><i class="fa-solid fa-handshake"></i> 3. BUYER ACTION</div>
+            <p class="text-slate-300">Chats with farmer to review produce quality photos, agrees on freight (farm-gate vs mandi), and deposits escrow commitment.</p>
+            <div class="text-[10px] text-blue-300 font-mono bg-blue-500/10 px-2 py-1 rounded">Terms Agreed &bull; Escrow Deposit</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- STAGE 5 CARD -->
+      <div class="bg-slate-900/60 border border-slate-800 rounded-2xl p-6 space-y-4">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <span class="px-3 py-1 rounded-full bg-slate-800 text-sky-400 text-xs font-bold border border-slate-700">STAGE 5</span>
+            <h4 class="text-lg font-bold text-white">Fulfillment, Double-Entry Ledger & Retraining Loop</h4>
+          </div>
+          <span class="text-xs text-slate-400">Settlement & Closed Loop Phase</span>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
+          <div class="p-4 rounded-xl bg-teal-950/20 border border-teal-500/20 space-y-2">
+            <div class="font-bold text-teal-400 flex items-center gap-2"><i class="fa-solid fa-coins"></i> 1. FARMER ACTION</div>
+            <p class="text-slate-300">Executes 4-day dispatch plan, completes delivery handover, receives bank payout, and views net profit margin in ledger.</p>
+            <div class="text-[10px] text-teal-300 font-mono bg-teal-500/10 px-2 py-1 rounded">4-Day Plan &bull; Direct Payout &bull; Net Margin</div>
+          </div>
+          <div class="p-4 rounded-xl bg-amber-950/20 border border-amber-500/20 space-y-2">
+            <div class="font-bold text-amber-400 flex items-center gap-2"><i class="fa-solid fa-arrows-rotate"></i> 2. CROPPOINT AI SYSTEM</div>
+            <p class="text-slate-300">Logs double-entry ledger (Gross - Logistics - Mandi Fee = Net Profit), issues GST tax invoice, and feeds actual price into retraining.</p>
+            <div class="text-[10px] text-amber-300 font-mono bg-amber-500/10 px-2 py-1 rounded">Double-Entry Ledger &bull; Retrain Pipeline</div>
+          </div>
+          <div class="p-4 rounded-xl bg-indigo-950/20 border border-indigo-500/20 space-y-2">
+            <div class="font-bold text-indigo-400 flex items-center gap-2"><i class="fa-solid fa-file-invoice"></i> 3. BUYER ACTION</div>
+            <p class="text-slate-300">Weighs and inspects batch quality, signs receipt, releases escrow, downloads GST tax invoice, and rates farmer reliability.</p>
+            <div class="text-[10px] text-indigo-300 font-mono bg-indigo-500/10 px-2 py-1 rounded">Delivery Receipt &bull; GST Invoice &bull; 5-Star Rating</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
